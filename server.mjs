@@ -97,7 +97,7 @@ app.use("/api", (req, res, next) => {
   res.set("Cache-Control", "no-store");
   if (
     Object.keys(req.query).some(
-      (k) => !["mode", "type", "cursor"].includes(k),
+      (k) => !["mode", "type", "cursor", "path"].includes(k),
     ) ||
     String(req.query.cursor || "").length > 160
   )
