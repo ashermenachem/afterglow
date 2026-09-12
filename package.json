@@ -1,0 +1,34 @@
+{
+  "name": "afterglow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node local.mjs",
+    "build": "tsc --noEmit && vite build",
+    "start": "node local.mjs --production",
+    "test": "node --test tests/*.test.mjs",
+    "test:e2e": "playwright test",
+    "check:secrets": "node scripts/check-secrets.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.7.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "description": "A cinematic movie and TV screensaver. A quiet screen. A world of cinema.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  }
+}
