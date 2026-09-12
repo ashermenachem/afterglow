@@ -11,7 +11,7 @@ Full-bleed artwork. Original title logos. Nothing in the way.
 [![MIT license](https://img.shields.io/badge/license-MIT-d6e5c3?style=flat&labelColor=17201c)](LICENSE)
 [![Node.js 22+](https://img.shields.io/badge/Node.js-22%2B-d6e5c3?style=flat&labelColor=17201c)](https://nodejs.org/)
 
-**[Run locally](#run-it-on-your-laptop)** · **[Controls](#make-yourself-at-home)** · **[How it works](#behind-the-scenes)**
+**[Open Afterglow ↗](https://afterglowcinema.vercel.app)** · **[Run locally](#run-it-on-your-laptop)** · **[Controls](#make-yourself-at-home)** · **[How it works](#behind-the-scenes)**
 
 </div>
 
