@@ -13,6 +13,7 @@
     "refresh:imdb": "node scripts/refresh-imdb.mjs"
   },
   "dependencies": {
+    "@vercel/functions": "^3.9.7",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "express-rate-limit": "^8.7.0",

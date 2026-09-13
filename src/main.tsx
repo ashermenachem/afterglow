@@ -20,6 +20,9 @@ type Title = {
   title: string;
   backdrop: string | null;
   rank?: number;
+  ratingsUnavailable?: boolean;
+  imdbAsOf?: number | null;
+  criticAsOf?: number | null;
   logo: string | null;
   genres: string[];
   tmdb: number | null;
@@ -28,6 +31,7 @@ type Title = {
 };
 type Prefs = { mode: string; type: string; duration: number };
 type Candidate = {
+  imdb?: number;
   id: number | string;
   type: string;
   rank?: number;
@@ -163,6 +167,11 @@ function Slide({
           {data.imdb !== null && (
             <span
               className="rating"
+              title={
+                data.imdbAsOf
+                  ? `IMDb score saved ${new Date(data.imdbAsOf).toLocaleDateString()}`
+                  : undefined
+              }
               aria-label={`IMDb ${data.imdb.toFixed(1)} out of 10`}
             >
               <img className="imdb" src="/ratings/imdb.svg" alt="IMDb" />
@@ -175,6 +184,11 @@ function Slide({
           {data.critic !== null && (
             <span
               className="rating"
+              title={
+                data.criticAsOf
+                  ? `Critic score saved ${new Date(data.criticAsOf).toLocaleDateString()}`
+                  : undefined
+              }
               aria-label={`Rotten Tomatoes critics ${data.critic}%`}
             >
               <img
@@ -189,6 +203,11 @@ function Slide({
             </span>
           )}
         </div>
+        {data.ratingsUnavailable && data.critic === null && (
+          <p className="artwork-note" role="status">
+            Critic score temporarily unavailable
+          </p>
+        )}
       </div>
     </section>
   );
@@ -331,7 +350,7 @@ function App() {
                 logo: null,
                 genres: [],
                 tmdb: null,
-                imdb: null,
+                imdb: item.imdb ?? null,
                 critic: null,
               };
               if (replace) {

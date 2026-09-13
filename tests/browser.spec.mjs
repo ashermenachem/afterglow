@@ -126,3 +126,37 @@ test("initial provider failure offers retry", async ({ page }) => {
   await expect(page.getByRole("button", { name: "Try again" })).toBeVisible();
   await expect(page.locator(".slide")).toHaveCount(0);
 });
+
+test("saved IMDb and critic ratings render in IMDb mode during a provider outage", async ({
+  page,
+}) => {
+  await page.addInitScript(() =>
+    localStorage.setItem(
+      "afterglow",
+      JSON.stringify({ mode: "imdb", type: "movie", duration: 12 }),
+    ),
+  );
+  await fixtures(page);
+  await page.route("**/api/title/movie/*", (r) =>
+    r.fulfill({
+      json: {
+        id: 1,
+        type: "movie",
+        title: "The Shawshank Redemption",
+        backdrop: art,
+        logo: null,
+        genres: ["Drama"],
+        tmdb: 8.7,
+        imdb: 9.3,
+        critic: 89,
+        ratingsUnavailable: true,
+        imdbAsOf: 1789248000000,
+        criticAsOf: 1789248000000,
+      },
+    }),
+  );
+  await page.goto("http://localhost:4173");
+  await expect(page.locator(".incoming .rating")).toHaveCount(3);
+  await expect(page.getByLabel("IMDb 9.3 out of 10")).toBeVisible();
+  await expect(page.getByLabel("Rotten Tomatoes critics 89%")).toBeVisible();
+});

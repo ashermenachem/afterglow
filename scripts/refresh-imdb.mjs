@@ -29,6 +29,7 @@ const charts = Object.fromEntries(
           rank: x.Rank,
           id: x.link?.match(/\/title\/(tt\d+)\//)?.[1],
           title: decodeChartTitle(x.name),
+          imdb: Number(x["IMDb Rating"]),
         })),
       );
       return [

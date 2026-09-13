@@ -1,6 +1,10 @@
 import "dotenv/config";
 import express from "express";
 import imdbSnapshot from "./data/imdb-top250.json" with { type: "json" };
+import ratingsSeed from "./data/ratings-seed.json" with { type: "json" };
+import { getCache } from "@vercel/functions";
+import { createRatingsService, parseRatings } from "./lib/ratings.mjs";
+export { parseRatings } from "./lib/ratings.mjs";
 import { chartSequence } from "./lib/imdb.mjs";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { rateLimit } from "express-rate-limit";
@@ -68,18 +72,40 @@ const tmdb = (route, params = {}) =>
           }),
       ),
   );
-export function parseRatings(d) {
-  const imdb = Number(d.imdbRating);
-  const raw = d.Ratings?.find((r) => r.Source === "Rotten Tomatoes")?.Value;
-  const rt =
-    typeof raw === "string" && /^\d+%$/.test(raw)
-      ? Number(raw.slice(0, -1))
-      : null;
-  return {
-    imdb: imdb > 0 && imdb <= 10 ? imdb : null,
-    critic: rt !== null && rt >= 0 && rt <= 100 ? rt : null,
-  };
-}
+const getRatings = createRatingsService({
+  shared: process.env.VERCEL
+    ? getCache({ namespace: "afterglow-ratings-v1" })
+    : undefined,
+  seeds: ratingsSeed.ratings,
+  chartRatings: Object.fromEntries(
+    Object.values(imdbSnapshot.charts).flatMap((chart) =>
+      chart.items.map((item) => [
+        item.id,
+        { imdb: item.imdb, asOf: Date.parse(chart.archiveUpdatedAt) },
+      ]),
+    ),
+  ),
+  fetchRatings: (imdbId) =>
+    limited(async () => {
+      const r = await fetch(
+        "https://www.omdbapi.com/?" +
+          new URLSearchParams({
+            apikey: process.env.OMDB_API_KEY,
+            i: imdbId,
+          }),
+        { signal: AbortSignal.timeout(9000) },
+      );
+      const data = await r.json();
+      if (!r.ok || data.Response === "False") {
+        const error = new Error("Ratings provider unavailable");
+        error.code = /not found/i.test(data.Error || "")
+          ? "NOT_FOUND"
+          : "PROVIDER_UNAVAILABLE";
+        throw error;
+      }
+      return parseRatings(data);
+    }),
+});
 export function badge(score) {
   return score == null ? null : score >= 60 ? "fresh" : "rotten";
 }
@@ -257,22 +283,10 @@ app.get("/api/title/:type/:id", async (req, res) => {
           b.vote_average - a.vote_average,
       );
     const imdbId = d.imdb_id || d.external_ids?.imdb_id;
-    let ratings = { imdb: null, critic: null };
-    if (imdbId)
-      try {
-        ratings = await cached("omdb:" + imdbId, 24 * hour, async () => {
-          const o = await remote(
-            "https://www.omdbapi.com/?" +
-              new URLSearchParams({
-                apikey: process.env.OMDB_API_KEY,
-                i: imdbId,
-              }),
-          );
-          if (o.Response === "False") throw new Error("Unavailable");
-          return parseRatings(o);
-        });
-      } catch {}
-    cacheResponse(res, 86400);
+    const ratings = await getRatings(imdbId);
+    // Keep partial outage responses out of the CDN so recovery is visible immediately.
+    if (!ratings.ratingsUnavailable) cacheResponse(res, 3600);
+    else res.set("Vercel-CDN-Cache-Control", "no-store");
     res.json({
       id: d.id,
       type,

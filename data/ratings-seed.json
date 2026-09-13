@@ -1,0 +1,271 @@
+{
+  "source": "https://www.omdbapi.com/",
+  "description": "Previously fetched public OMDb scores; timestamps are original fetch times.",
+  "ratings": {
+    "tt0486240": {
+      "imdb": 4.3,
+      "critic": null,
+      "fetchedAt": 1789248297996
+    },
+    "tt5489690": {
+      "imdb": 4.6,
+      "critic": null,
+      "fetchedAt": 1789248299052
+    },
+    "tt22084616": {
+      "imdb": 8.1,
+      "critic": 89,
+      "fetchedAt": 1789248300097
+    },
+    "tt3247300": {
+      "imdb": 8.2,
+      "critic": null,
+      "fetchedAt": 1789248301174
+    },
+    "tt9288030": {
+      "imdb": 8,
+      "critic": null,
+      "fetchedAt": 1789248313836
+    },
+    "tt1756855": {
+      "imdb": 7.6,
+      "critic": 96,
+      "fetchedAt": 1789248324342
+    },
+    "tt33764258": {
+      "imdb": 8.4,
+      "critic": 93,
+      "fetchedAt": 1789248347982
+    },
+    "tt1224144": {
+      "imdb": 7.6,
+      "critic": null,
+      "fetchedAt": 1789248359313
+    },
+    "tt1196946": {
+      "imdb": 8.2,
+      "critic": null,
+      "fetchedAt": 1789248371234
+    },
+    "tt13111078": {
+      "imdb": 7.8,
+      "critic": null,
+      "fetchedAt": 1789248383295
+    },
+    "tt32338669": {
+      "imdb": 5.7,
+      "critic": 50,
+      "fetchedAt": 1789248395347
+    },
+    "tt34385135": {
+      "imdb": 6.5,
+      "critic": 81,
+      "fetchedAt": 1789248410279
+    },
+    "tt34809853": {
+      "imdb": 8.4,
+      "critic": null,
+      "fetchedAt": 1789248511216
+    },
+    "tt18259538": {
+      "imdb": null,
+      "critic": 90,
+      "fetchedAt": 1789248511541
+    },
+    "tt29552248": {
+      "imdb": 7.3,
+      "critic": 69,
+      "fetchedAt": 1789248512369
+    },
+    "tt40187050": {
+      "imdb": 5.6,
+      "critic": null,
+      "fetchedAt": 1789248513311
+    },
+    "tt39390497": {
+      "imdb": 6.7,
+      "critic": null,
+      "fetchedAt": 1789248521817
+    },
+    "tt0111161": {
+      "imdb": 9.3,
+      "critic": 89,
+      "fetchedAt": 1789248673528
+    },
+    "tt34991493": {
+      "imdb": 8.2,
+      "critic": null,
+      "fetchedAt": 1789248766553
+    },
+    "tt0903747": {
+      "imdb": 9.5,
+      "critic": 96,
+      "fetchedAt": 1789248781005
+    },
+    "tt33546863": {
+      "imdb": 7.9,
+      "critic": null,
+      "fetchedAt": 1789248785808
+    },
+    "tt27419466": {
+      "imdb": 5.8,
+      "critic": 32,
+      "fetchedAt": 1789248800376
+    },
+    "tt0246393": {
+      "imdb": 7.3,
+      "critic": null,
+      "fetchedAt": 1789248812410
+    },
+    "tt14688458": {
+      "imdb": 8.1,
+      "critic": null,
+      "fetchedAt": 1789248824582
+    },
+    "tt2057880": {
+      "imdb": 5.6,
+      "critic": null,
+      "fetchedAt": 1789248848348
+    },
+    "tt0203259": {
+      "imdb": 8.1,
+      "critic": null,
+      "fetchedAt": 1789248860535
+    },
+    "tt10986410": {
+      "imdb": 8.7,
+      "critic": null,
+      "fetchedAt": 1789248872603
+    },
+    "tt28014327": {
+      "imdb": 6.9,
+      "critic": 81,
+      "fetchedAt": 1789248916685
+    },
+    "tt36073210": {
+      "imdb": 5.6,
+      "critic": null,
+      "fetchedAt": 1789248928562
+    },
+    "tt34564059": {
+      "imdb": 4.1,
+      "critic": 8,
+      "fetchedAt": 1789248940624
+    },
+    "tt37752275": {
+      "imdb": 4.6,
+      "critic": null,
+      "fetchedAt": 1789248952554
+    },
+    "tt37853455": {
+      "imdb": 6.3,
+      "critic": 43,
+      "fetchedAt": 1789248997626
+    },
+    "tt37281055": {
+      "imdb": 7.1,
+      "critic": 89,
+      "fetchedAt": 1789248999690
+    },
+    "tt13210838": {
+      "imdb": 8,
+      "critic": null,
+      "fetchedAt": 1789249012060
+    },
+    "tt0149460": {
+      "imdb": 8.5,
+      "critic": null,
+      "fetchedAt": 1789249012606
+    },
+    "tt32820897": {
+      "imdb": 8.4,
+      "critic": 98,
+      "fetchedAt": 1789249078692
+    },
+    "tt0068646": {
+      "imdb": 9.2,
+      "critic": 97,
+      "fetchedAt": 1789249085469
+    },
+    "tt11378946": {
+      "imdb": 7.5,
+      "critic": 38,
+      "fetchedAt": 1789249087956
+    },
+    "tt12042730": {
+      "imdb": 8.2,
+      "critic": 95,
+      "fetchedAt": 1789249090575
+    },
+    "tt0071562": {
+      "imdb": 9,
+      "critic": 96,
+      "fetchedAt": 1789249093889
+    },
+    "tt0050083": {
+      "imdb": 9,
+      "critic": 100,
+      "fetchedAt": 1789249097125
+    },
+    "tt37287335": {
+      "imdb": 7.9,
+      "critic": 93,
+      "fetchedAt": 1789249239343
+    },
+    "tt29355505": {
+      "imdb": 7.4,
+      "critic": 93,
+      "fetchedAt": 1789249251374
+    },
+    "tt29512655": {
+      "imdb": 4.9,
+      "critic": null,
+      "fetchedAt": 1789249287433
+    },
+    "tt32890033": {
+      "imdb": 6.3,
+      "critic": 89,
+      "fetchedAt": 1789249299258
+    },
+    "tt32333324": {
+      "imdb": 8.1,
+      "critic": null,
+      "fetchedAt": 1789249311307
+    },
+    "tt37603783": {
+      "imdb": 5.2,
+      "critic": null,
+      "fetchedAt": 1789249323525
+    },
+    "tt30887701": {
+      "imdb": 5.8,
+      "critic": 76,
+      "fetchedAt": 1789249335421
+    },
+    "tt11561116": {
+      "imdb": null,
+      "critic": 45,
+      "fetchedAt": 1789249359644
+    },
+    "tt15047880": {
+      "imdb": 6.4,
+      "critic": 79,
+      "fetchedAt": 1789249371284
+    },
+    "tt27844906": {
+      "imdb": null,
+      "critic": 16,
+      "fetchedAt": 1789249383354
+    },
+    "tt0816692": {
+      "imdb": 8.7,
+      "critic": 73,
+      "fetchedAt": 1789249560077
+    },
+    "tt0137523": {
+      "imdb": 8.8,
+      "critic": 81,
+      "fetchedAt": 1789249561658
+    }
+  }
+}

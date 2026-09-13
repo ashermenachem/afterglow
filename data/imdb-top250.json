@@ -9,1252 +9,1502 @@
         {
           "rank": 1,
           "id": "tt0111161",
-          "title": "The Shawshank Redemption"
+          "title": "The Shawshank Redemption",
+          "imdb": 9.3
         },
         {
           "rank": 2,
           "id": "tt0068646",
-          "title": "The Godfather"
+          "title": "The Godfather",
+          "imdb": 9.2
         },
         {
           "rank": 3,
           "id": "tt0468569",
-          "title": "The Dark Knight"
+          "title": "The Dark Knight",
+          "imdb": 9.1
         },
         {
           "rank": 4,
           "id": "tt0071562",
-          "title": "The Godfather Part II"
+          "title": "The Godfather Part II",
+          "imdb": 9
         },
         {
           "rank": 5,
           "id": "tt0167260",
-          "title": "The Lord of the Rings: The Return of the King"
+          "title": "The Lord of the Rings: The Return of the King",
+          "imdb": 9
         },
         {
           "rank": 6,
           "id": "tt0050083",
-          "title": "12 Angry Men"
+          "title": "12 Angry Men",
+          "imdb": 9
         },
         {
           "rank": 7,
           "id": "tt0108052",
-          "title": "Schindler's List"
+          "title": "Schindler's List",
+          "imdb": 9
         },
         {
           "rank": 8,
           "id": "tt0120737",
-          "title": "The Lord of the Rings: The Fellowship of the Ring"
+          "title": "The Lord of the Rings: The Fellowship of the Ring",
+          "imdb": 8.9
         },
         {
           "rank": 9,
           "id": "tt0110912",
-          "title": "Pulp Fiction"
+          "title": "Pulp Fiction",
+          "imdb": 8.8
         },
         {
           "rank": 10,
           "id": "tt0167261",
-          "title": "The Lord of the Rings: The Two Towers"
+          "title": "The Lord of the Rings: The Two Towers",
+          "imdb": 8.8
         },
         {
           "rank": 11,
           "id": "tt0060196",
-          "title": "Il buono, il brutto, il cattivo"
+          "title": "Il buono, il brutto, il cattivo",
+          "imdb": 8.8
         },
         {
           "rank": 12,
           "id": "tt0109830",
-          "title": "Forrest Gump"
+          "title": "Forrest Gump",
+          "imdb": 8.8
         },
         {
           "rank": 13,
           "id": "tt0137523",
-          "title": "Fight Club"
+          "title": "Fight Club",
+          "imdb": 8.8
         },
         {
           "rank": 14,
           "id": "tt1375666",
-          "title": "Inception"
+          "title": "Inception",
+          "imdb": 8.8
         },
         {
           "rank": 15,
           "id": "tt0080684",
-          "title": "Star Wars: Episode V - The Empire Strikes Back"
+          "title": "Star Wars: Episode V - The Empire Strikes Back",
+          "imdb": 8.7
         },
         {
           "rank": 16,
           "id": "tt0133093",
-          "title": "The Matrix"
+          "title": "The Matrix",
+          "imdb": 8.7
         },
         {
           "rank": 17,
           "id": "tt0816692",
-          "title": "Interstellar"
+          "title": "Interstellar",
+          "imdb": 8.7
         },
         {
           "rank": 18,
           "id": "tt0099685",
-          "title": "GoodFellas"
+          "title": "GoodFellas",
+          "imdb": 8.7
         },
         {
           "rank": 19,
           "id": "tt0073486",
-          "title": "One Flew Over the Cuckoo's Nest"
+          "title": "One Flew Over the Cuckoo's Nest",
+          "imdb": 8.6
         },
         {
           "rank": 20,
           "id": "tt0114369",
-          "title": "Se7en"
+          "title": "Se7en",
+          "imdb": 8.6
         },
         {
           "rank": 21,
           "id": "tt0038650",
-          "title": "It's a Wonderful Life"
+          "title": "It's a Wonderful Life",
+          "imdb": 8.6
         },
         {
           "rank": 22,
           "id": "tt0102926",
-          "title": "The Silence of the Lambs"
+          "title": "The Silence of the Lambs",
+          "imdb": 8.6
         },
         {
           "rank": 23,
           "id": "tt0120815",
-          "title": "Saving Private Ryan"
+          "title": "Saving Private Ryan",
+          "imdb": 8.6
         },
         {
           "rank": 24,
           "id": "tt0047478",
-          "title": "Shichinin no samurai"
+          "title": "Shichinin no samurai",
+          "imdb": 8.6
         },
         {
           "rank": 25,
           "id": "tt0120689",
-          "title": "The Green Mile"
+          "title": "The Green Mile",
+          "imdb": 8.6
         },
         {
           "rank": 26,
           "id": "tt0317248",
-          "title": "Cidade de Deus"
+          "title": "Cidade de Deus",
+          "imdb": 8.6
         },
         {
           "rank": 27,
           "id": "tt0118799",
-          "title": "La vita è bella"
+          "title": "La vita è bella",
+          "imdb": 8.6
         },
         {
           "rank": 28,
           "id": "tt0103064",
-          "title": "Terminator 2: Judgment Day"
+          "title": "Terminator 2: Judgment Day",
+          "imdb": 8.6
         },
         {
           "rank": 29,
           "id": "tt0088763",
-          "title": "Back to the Future"
+          "title": "Back to the Future",
+          "imdb": 8.5
         },
         {
           "rank": 30,
           "id": "tt0076759",
-          "title": "Star Wars"
+          "title": "Star Wars",
+          "imdb": 8.6
         },
         {
           "rank": 31,
           "id": "tt0245429",
-          "title": "Sen to Chihiro no kamikakushi"
+          "title": "Sen to Chihiro no kamikakushi",
+          "imdb": 8.6
         },
         {
           "rank": 32,
           "id": "tt6019206",
-          "title": "Kill Bill: The Whole Bloody Affair"
+          "title": "Kill Bill: The Whole Bloody Affair",
+          "imdb": 8.7
         },
         {
           "rank": 33,
           "id": "tt0172495",
-          "title": "Gladiator"
+          "title": "Gladiator",
+          "imdb": 8.5
         },
         {
           "rank": 34,
           "id": "tt0253474",
-          "title": "The Pianist"
+          "title": "The Pianist",
+          "imdb": 8.5
         },
         {
           "rank": 35,
           "id": "tt6751668",
-          "title": "Gisaengchung"
+          "title": "Gisaengchung",
+          "imdb": 8.5
         },
         {
           "rank": 36,
           "id": "tt0095327",
-          "title": "Hotaru no haka"
+          "title": "Hotaru no haka",
+          "imdb": 8.5
         },
         {
           "rank": 37,
           "id": "tt0056058",
-          "title": "Seppuku"
+          "title": "Seppuku",
+          "imdb": 8.6
         },
         {
           "rank": 38,
           "id": "tt0054215",
-          "title": "Psycho"
+          "title": "Psycho",
+          "imdb": 8.5
         },
         {
           "rank": 39,
           "id": "tt0110357",
-          "title": "The Lion King"
+          "title": "The Lion King",
+          "imdb": 8.5
         },
         {
           "rank": 40,
           "id": "tt0407887",
-          "title": "The Departed"
+          "title": "The Departed",
+          "imdb": 8.5
         },
         {
           "rank": 41,
           "id": "tt2582802",
-          "title": "Whiplash"
+          "title": "Whiplash",
+          "imdb": 8.5
         },
         {
           "rank": 42,
           "id": "tt0482571",
-          "title": "The Prestige"
+          "title": "The Prestige",
+          "imdb": 8.5
         },
         {
           "rank": 43,
           "id": "tt0120586",
-          "title": "American History X"
+          "title": "American History X",
+          "imdb": 8.5
         },
         {
           "rank": 44,
           "id": "tt9362722",
-          "title": "Spider-Man: Across the Spider-Verse"
+          "title": "Spider-Man: Across the Spider-Verse",
+          "imdb": 8.5
         },
         {
           "rank": 45,
           "id": "tt0110413",
-          "title": "Léon"
+          "title": "Léon",
+          "imdb": 8.5
         },
         {
           "rank": 46,
           "id": "tt0095765",
-          "title": "Nuovo Cinema Paradiso"
+          "title": "Nuovo Cinema Paradiso",
+          "imdb": 8.5
         },
         {
           "rank": 47,
           "id": "tt0034583",
-          "title": "Casablanca"
+          "title": "Casablanca",
+          "imdb": 8.5
         },
         {
           "rank": 48,
           "id": "tt1675434",
-          "title": "Intouchables"
+          "title": "Intouchables",
+          "imdb": 8.5
         },
         {
           "rank": 49,
           "id": "tt0114814",
-          "title": "The Usual Suspects"
+          "title": "The Usual Suspects",
+          "imdb": 8.5
         },
         {
           "rank": 50,
           "id": "tt1853728",
-          "title": "Django Unchained"
+          "title": "Django Unchained",
+          "imdb": 8.5
         },
         {
           "rank": 51,
           "id": "tt0078748",
-          "title": "Alien"
+          "title": "Alien",
+          "imdb": 8.4
         },
         {
           "rank": 52,
           "id": "tt0047396",
-          "title": "Rear Window"
+          "title": "Rear Window",
+          "imdb": 8.4
         },
         {
           "rank": 53,
           "id": "tt0027977",
-          "title": "Modern Times"
+          "title": "Modern Times",
+          "imdb": 8.5
         },
         {
           "rank": 54,
           "id": "tt0064116",
-          "title": "C'era una volta il West"
+          "title": "C'era una volta il West",
+          "imdb": 8.5
         },
         {
           "rank": 55,
           "id": "tt0021749",
-          "title": "City Lights"
+          "title": "City Lights",
+          "imdb": 8.5
         },
         {
           "rank": 56,
           "id": "tt0910970",
-          "title": "WALL·E"
+          "title": "WALL·E",
+          "imdb": 8.4
         },
         {
           "rank": 57,
           "id": "tt0078788",
-          "title": "Apocalypse Now"
+          "title": "Apocalypse Now",
+          "imdb": 8.4
         },
         {
           "rank": 58,
           "id": "tt0209144",
-          "title": "Memento"
+          "title": "Memento",
+          "imdb": 8.4
         },
         {
           "rank": 59,
           "id": "tt4154756",
-          "title": "Avengers: Infinity War"
+          "title": "Avengers: Infinity War",
+          "imdb": 8.4
         },
         {
           "rank": 60,
           "id": "tt33764258",
-          "title": "The Odyssey"
+          "title": "The Odyssey",
+          "imdb": 8.4
         },
         {
           "rank": 61,
           "id": "tt15239678",
-          "title": "Dune: Part Two"
+          "title": "Dune: Part Two",
+          "imdb": 8.4
         },
         {
           "rank": 62,
           "id": "tt0082971",
-          "title": "Raiders of the Lost Ark"
+          "title": "Raiders of the Lost Ark",
+          "imdb": 8.4
         },
         {
           "rank": 63,
           "id": "tt4633694",
-          "title": "Spider-Man: Into the Spider-Verse"
+          "title": "Spider-Man: Into the Spider-Verse",
+          "imdb": 8.4
         },
         {
           "rank": 64,
           "id": "tt0405094",
-          "title": "Das Leben der Anderen"
+          "title": "Das Leben der Anderen",
+          "imdb": 8.4
         },
         {
           "rank": 65,
           "id": "tt0043014",
-          "title": "Sunset Blvd."
+          "title": "Sunset Blvd.",
+          "imdb": 8.4
         },
         {
           "rank": 66,
           "id": "tt0051201",
-          "title": "Witness for the Prosecution"
+          "title": "Witness for the Prosecution",
+          "imdb": 8.4
         },
         {
           "rank": 67,
           "id": "tt0050825",
-          "title": "Paths of Glory"
+          "title": "Paths of Glory",
+          "imdb": 8.4
         },
         {
           "rank": 68,
           "id": "tt0361748",
-          "title": "Inglourious Basterds"
+          "title": "Inglourious Basterds",
+          "imdb": 8.4
         },
         {
           "rank": 69,
           "id": "tt0081505",
-          "title": "The Shining"
+          "title": "The Shining",
+          "imdb": 8.4
         },
         {
           "rank": 70,
           "id": "tt0032553",
-          "title": "The Great Dictator"
+          "title": "The Great Dictator",
+          "imdb": 8.4
         },
         {
           "rank": 71,
           "id": "tt0090605",
-          "title": "Aliens"
+          "title": "Aliens",
+          "imdb": 8.4
         },
         {
           "rank": 72,
           "id": "tt23849204",
-          "title": "12th Fail"
+          "title": "12th Fail",
+          "imdb": 8.7
         },
         {
           "rank": 73,
           "id": "tt0057565",
-          "title": "Tengoku to jigoku"
+          "title": "Tengoku to jigoku",
+          "imdb": 8.4
         },
         {
           "rank": 74,
           "id": "tt4154796",
-          "title": "Avengers: Endgame"
+          "title": "Avengers: Endgame",
+          "imdb": 8.4
         },
         {
           "rank": 75,
           "id": "tt0119217",
-          "title": "Good Will Hunting"
+          "title": "Good Will Hunting",
+          "imdb": 8.4
         },
         {
           "rank": 76,
           "id": "tt2380307",
-          "title": "Coco"
+          "title": "Coco",
+          "imdb": 8.4
         },
         {
           "rank": 77,
           "id": "tt0114709",
-          "title": "Toy Story"
+          "title": "Toy Story",
+          "imdb": 8.3
         },
         {
           "rank": 78,
           "id": "tt1345836",
-          "title": "The Dark Knight Rises"
+          "title": "The Dark Knight Rises",
+          "imdb": 8.4
         },
         {
           "rank": 79,
           "id": "tt0086879",
-          "title": "Amadeus"
+          "title": "Amadeus",
+          "imdb": 8.4
         },
         {
           "rank": 80,
           "id": "tt5311514",
-          "title": "Kimi no na wa."
+          "title": "Kimi no na wa.",
+          "imdb": 8.4
         },
         {
           "rank": 81,
           "id": "tt1187043",
-          "title": "3 Idiots"
+          "title": "3 Idiots",
+          "imdb": 8.4
         },
         {
           "rank": 82,
           "id": "tt0082096",
-          "title": "Das Boot"
+          "title": "Das Boot",
+          "imdb": 8.3
         },
         {
           "rank": 83,
           "id": "tt0112573",
-          "title": "Braveheart"
+          "title": "Braveheart",
+          "imdb": 8.3
         },
         {
           "rank": 84,
           "id": "tt0119698",
-          "title": "Mononoke-hime"
+          "title": "Mononoke-hime",
+          "imdb": 8.3
         },
         {
           "rank": 85,
           "id": "tt0364569",
-          "title": "Oldeuboi"
+          "title": "Oldeuboi",
+          "imdb": 8.3
         },
         {
           "rank": 86,
           "id": "tt0057012",
-          "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+          "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+          "imdb": 8.3
         },
         {
           "rank": 87,
           "id": "tt0169547",
-          "title": "American Beauty"
+          "title": "American Beauty",
+          "imdb": 8.3
         },
         {
           "rank": 88,
           "id": "tt8267604",
-          "title": "Capharnaüm"
+          "title": "Capharnaüm",
+          "imdb": 8.4
         },
         {
           "rank": 89,
           "id": "tt0045152",
-          "title": "Singin' in the Rain"
+          "title": "Singin' in the Rain",
+          "imdb": 8.3
         },
         {
           "rank": 90,
           "id": "tt0087843",
-          "title": "C'era una volta in America"
+          "title": "C'era una volta in America",
+          "imdb": 8.3
         },
         {
           "rank": 91,
           "id": "tt7286456",
-          "title": "Joker"
+          "title": "Joker",
+          "imdb": 8.3
         },
         {
           "rank": 92,
           "id": "tt0435761",
-          "title": "Toy Story 3"
+          "title": "Toy Story 3",
+          "imdb": 8.3
         },
         {
           "rank": 93,
           "id": "tt0086190",
-          "title": "Star Wars: Episode VI - Return of the Jedi"
+          "title": "Star Wars: Episode VI - Return of the Jedi",
+          "imdb": 8.3
         },
         {
           "rank": 94,
           "id": "tt0091251",
-          "title": "Idi i smotri"
+          "title": "Idi i smotri",
+          "imdb": 8.3
         },
         {
           "rank": 95,
           "id": "tt0180093",
-          "title": "Requiem for a Dream"
+          "title": "Requiem for a Dream",
+          "imdb": 8.3
         },
         {
           "rank": 96,
           "id": "tt1255953",
-          "title": "Incendies"
+          "title": "Incendies",
+          "imdb": 8.3
         },
         {
           "rank": 97,
           "id": "tt0044741",
-          "title": "Ikiru"
+          "title": "Ikiru",
+          "imdb": 8.3
         },
         {
           "rank": 98,
           "id": "tt33175825",
-          "title": "Shingeki no Kyojin: The Last Attack"
+          "title": "Shingeki no Kyojin: The Last Attack",
+          "imdb": 8.9
         },
         {
           "rank": 99,
           "id": "tt2106476",
-          "title": "Jagten"
+          "title": "Jagten",
+          "imdb": 8.3
         },
         {
           "rank": 100,
           "id": "tt0338013",
-          "title": "Eternal Sunshine of the Spotless Mind"
+          "title": "Eternal Sunshine of the Spotless Mind",
+          "imdb": 8.3
         },
         {
           "rank": 101,
           "id": "tt0053604",
-          "title": "The Apartment"
+          "title": "The Apartment",
+          "imdb": 8.3
         },
         {
           "rank": 102,
           "id": "tt0056172",
-          "title": "Lawrence of Arabia"
+          "title": "Lawrence of Arabia",
+          "imdb": 8.3
         },
         {
           "rank": 103,
           "id": "tt0113277",
-          "title": "Heat"
+          "title": "Heat",
+          "imdb": 8.3
         },
         {
           "rank": 104,
           "id": "tt0086250",
-          "title": "Scarface"
+          "title": "Scarface",
+          "imdb": 8.3
         },
         {
           "rank": 105,
           "id": "tt0105236",
-          "title": "Reservoir Dogs"
+          "title": "Reservoir Dogs",
+          "imdb": 8.2
         },
         {
           "rank": 106,
           "id": "tt1049413",
-          "title": "Up"
+          "title": "Up",
+          "imdb": 8.3
         },
         {
           "rank": 107,
           "id": "tt0062622",
-          "title": "2001: A Space Odyssey"
+          "title": "2001: A Space Odyssey",
+          "imdb": 8.3
         },
         {
           "rank": 108,
           "id": "tt0036775",
-          "title": "Double Indemnity"
+          "title": "Double Indemnity",
+          "imdb": 8.3
         },
         {
           "rank": 109,
           "id": "tt0986264",
-          "title": "Taare Zameen Par"
+          "title": "Taare Zameen Par",
+          "imdb": 8.3
         },
         {
           "rank": 110,
           "id": "tt0053125",
-          "title": "North by Northwest"
+          "title": "North by Northwest",
+          "imdb": 8.2
         },
         {
           "rank": 111,
           "id": "tt31514146",
-          "title": "I Swear"
+          "title": "I Swear",
+          "imdb": 8.4
         },
         {
           "rank": 112,
           "id": "tt0093058",
-          "title": "Full Metal Jacket"
+          "title": "Full Metal Jacket",
+          "imdb": 8.2
         },
         {
           "rank": 113,
           "id": "tt1832382",
-          "title": "Jodaeiye Nader az Simin"
+          "title": "Jodaeiye Nader az Simin",
+          "imdb": 8.3
         },
         {
           "rank": 114,
           "id": "tt0022100",
-          "title": "M - Eine Stadt sucht einen Mörder"
+          "title": "M - Eine Stadt sucht einen Mörder",
+          "imdb": 8.3
         },
         {
           "rank": 115,
           "id": "tt0095016",
-          "title": "Die Hard"
+          "title": "Die Hard",
+          "imdb": 8.2
         },
         {
           "rank": 116,
           "id": "tt0211915",
-          "title": "Le fabuleux destin d'Amélie Poulain"
+          "title": "Le fabuleux destin d'Amélie Poulain",
+          "imdb": 8.2
         },
         {
           "rank": 117,
           "id": "tt0052357",
-          "title": "Vertigo"
+          "title": "Vertigo",
+          "imdb": 8.2
         },
         {
           "rank": 118,
           "id": "tt0056592",
-          "title": "To Kill a Mockingbird"
+          "title": "To Kill a Mockingbird",
+          "imdb": 8.2
         },
         {
           "rank": 119,
           "id": "tt0033467",
-          "title": "Citizen Kane"
+          "title": "Citizen Kane",
+          "imdb": 8.2
         },
         {
           "rank": 120,
           "id": "tt0097576",
-          "title": "Indiana Jones and the Last Crusade"
+          "title": "Indiana Jones and the Last Crusade",
+          "imdb": 8.2
         },
         {
           "rank": 121,
           "id": "tt0070735",
-          "title": "The Sting"
+          "title": "The Sting",
+          "imdb": 8.2
         },
         {
           "rank": 122,
           "id": "tt0066921",
-          "title": "A Clockwork Orange"
+          "title": "A Clockwork Orange",
+          "imdb": 8.2
         },
         {
           "rank": 123,
           "id": "tt0017136",
-          "title": "Metropolis"
+          "title": "Metropolis",
+          "imdb": 8.2
         },
         {
           "rank": 124,
           "id": "tt8579674",
-          "title": "1917"
+          "title": "1917",
+          "imdb": 8.2
         },
         {
           "rank": 125,
           "id": "tt0993846",
-          "title": "The Wolf of Wall Street"
+          "title": "The Wolf of Wall Street",
+          "imdb": 8.2
         },
         {
           "rank": 126,
           "id": "tt0208092",
-          "title": "Snatch"
+          "title": "Snatch",
+          "imdb": 8.2
         },
         {
           "rank": 127,
           "id": "tt0120382",
-          "title": "The Truman Show"
+          "title": "The Truman Show",
+          "imdb": 8.2
         },
         {
           "rank": 128,
           "id": "tt0363163",
-          "title": "Der Untergang"
+          "title": "Der Untergang",
+          "imdb": 8.2
         },
         {
           "rank": 129,
           "id": "tt1130884",
-          "title": "Shutter Island"
+          "title": "Shutter Island",
+          "imdb": 8.2
         },
         {
           "rank": 130,
           "id": "tt0119488",
-          "title": "L.A. Confidential"
+          "title": "L.A. Confidential",
+          "imdb": 8.2
         },
         {
           "rank": 131,
           "id": "tt0058625",
-          "title": "Suna no onna"
+          "title": "Suna no onna",
+          "imdb": 8.4
         },
         {
           "rank": 132,
           "id": "tt5074352",
-          "title": "Dangal"
+          "title": "Dangal",
+          "imdb": 8.3
         },
         {
           "rank": 133,
           "id": "tt6966692",
-          "title": "Green Book"
+          "title": "Green Book",
+          "imdb": 8.2
         },
         {
           "rank": 134,
           "id": "tt0040522",
-          "title": "Ladri di biciclette"
+          "title": "Ladri di biciclette",
+          "imdb": 8.2
         },
         {
           "rank": 135,
           "id": "tt0055031",
-          "title": "Judgment at Nuremberg"
+          "title": "Judgment at Nuremberg",
+          "imdb": 8.3
         },
         {
           "rank": 136,
           "id": "tt0107290",
-          "title": "Jurassic Park"
+          "title": "Jurassic Park",
+          "imdb": 8.2
         },
         {
           "rank": 137,
           "id": "tt0372784",
-          "title": "Batman Begins"
+          "title": "Batman Begins",
+          "imdb": 8.2
         },
         {
           "rank": 138,
           "id": "tt15398776",
-          "title": "Oppenheimer"
+          "title": "Oppenheimer",
+          "imdb": 8.2
         },
         {
           "rank": 139,
           "id": "tt0059578",
-          "title": "Per qualche dollaro in più"
+          "title": "Per qualche dollaro in più",
+          "imdb": 8.2
         },
         {
           "rank": 140,
           "id": "tt8503618",
-          "title": "Hamilton"
+          "title": "Hamilton",
+          "imdb": 8.3
         },
         {
           "rank": 141,
           "id": "tt0469494",
-          "title": "There Will Be Blood"
+          "title": "There Will Be Blood",
+          "imdb": 8.2
         },
         {
           "rank": 142,
           "id": "tt0053291",
-          "title": "Some Like It Hot"
+          "title": "Some Like It Hot",
+          "imdb": 8.2
         },
         {
           "rank": 143,
           "id": "tt0075314",
-          "title": "Taxi Driver"
+          "title": "Taxi Driver",
+          "imdb": 8.2
         },
         {
           "rank": 144,
           "id": "tt10272386",
-          "title": "The Father"
+          "title": "The Father",
+          "imdb": 8.2
         },
         {
           "rank": 145,
           "id": "tt0012349",
-          "title": "The Kid"
+          "title": "The Kid",
+          "imdb": 8.2
         },
         {
           "rank": 146,
           "id": "tt0167404",
-          "title": "The Sixth Sense"
+          "title": "The Sixth Sense",
+          "imdb": 8.2
         },
         {
           "rank": 147,
           "id": "tt0042192",
-          "title": "All About Eve"
+          "title": "All About Eve",
+          "imdb": 8.2
         },
         {
           "rank": 148,
           "id": "tt0089881",
-          "title": "Ran"
+          "title": "Ran",
+          "imdb": 8.2
         },
         {
           "rank": 149,
           "id": "tt0112641",
-          "title": "Casino"
+          "title": "Casino",
+          "imdb": 8.2
         },
         {
           "rank": 150,
           "id": "tt0084787",
-          "title": "The Thing"
+          "title": "The Thing",
+          "imdb": 8.2
         },
         {
           "rank": 151,
           "id": "tt0477348",
-          "title": "No Country for Old Men"
+          "title": "No Country for Old Men",
+          "imdb": 8.2
         },
         {
           "rank": 152,
           "id": "tt1392214",
-          "title": "Prisoners"
+          "title": "Prisoners",
+          "imdb": 8.2
         },
         {
           "rank": 153,
           "id": "tt1745960",
-          "title": "Top Gun: Maverick"
+          "title": "Top Gun: Maverick",
+          "imdb": 8.2
         },
         {
           "rank": 154,
           "id": "tt0266697",
-          "title": "Kill Bill: Vol. 1"
+          "title": "Kill Bill: Vol. 1",
+          "imdb": 8.2
         },
         {
           "rank": 155,
           "id": "tt0457430",
-          "title": "El laberinto del fauno"
+          "title": "El laberinto del fauno",
+          "imdb": 8.2
         },
         {
           "rank": 156,
           "id": "tt0105695",
-          "title": "Unforgiven"
+          "title": "Unforgiven",
+          "imdb": 8.2
         },
         {
           "rank": 157,
           "id": "tt0268978",
-          "title": "A Beautiful Mind"
+          "title": "A Beautiful Mind",
+          "imdb": 8.2
         },
         {
           "rank": 158,
           "id": "tt0347149",
-          "title": "Hauru no ugoku shiro"
+          "title": "Hauru no ugoku shiro",
+          "imdb": 8.2
         },
         {
           "rank": 159,
           "id": "tt12042730",
-          "title": "Project Hail Mary"
+          "title": "Project Hail Mary",
+          "imdb": 8.2
         },
         {
           "rank": 160,
           "id": "tt32820897",
-          "title": "Gekijô-ban Kimetsu no Yaiba Mugen Jô-hen"
+          "title": "Gekijô-ban Kimetsu no Yaiba Mugen Jô-hen",
+          "imdb": 8.4
         },
         {
           "rank": 161,
           "id": "tt0040897",
-          "title": "The Treasure of the Sierra Madre"
+          "title": "The Treasure of the Sierra Madre",
+          "imdb": 8.2
         },
         {
           "rank": 162,
           "id": "tt0266543",
-          "title": "Finding Nemo"
+          "title": "Finding Nemo",
+          "imdb": 8.2
         },
         {
           "rank": 163,
           "id": "tt4729430",
-          "title": "Klaus"
+          "title": "Klaus",
+          "imdb": 8.2
         },
         {
           "rank": 164,
           "id": "tt0055630",
-          "title": "Yôjinbô"
+          "title": "Yôjinbô",
+          "imdb": 8.2
         },
         {
           "rank": 165,
           "id": "tt0080678",
-          "title": "The Elephant Man"
+          "title": "The Elephant Man",
+          "imdb": 8.2
         },
         {
           "rank": 166,
           "id": "tt0057115",
-          "title": "The Great Escape"
+          "title": "The Great Escape",
+          "imdb": 8.2
         },
         {
           "rank": 167,
           "id": "tt0071853",
-          "title": "Monty Python and the Holy Grail"
+          "title": "Monty Python and the Holy Grail",
+          "imdb": 8.1
         },
         {
           "rank": 168,
           "id": "tt0046912",
-          "title": "Dial M for Murder"
+          "title": "Dial M for Murder",
+          "imdb": 8.1
         },
         {
           "rank": 169,
           "id": "tt1305806",
-          "title": "El secreto de sus ojos"
+          "title": "El secreto de sus ojos",
+          "imdb": 8.2
         },
         {
           "rank": 170,
           "id": "tt0031381",
-          "title": "Gone with the Wind"
+          "title": "Gone with the Wind",
+          "imdb": 8.2
         },
         {
           "rank": 171,
           "id": "tt0120735",
-          "title": "Lock, Stock and Two Smoking Barrels"
+          "title": "Lock, Stock and Two Smoking Barrels",
+          "imdb": 8.1
         },
         {
           "rank": 172,
           "id": "tt0071315",
-          "title": "Chinatown"
+          "title": "Chinatown",
+          "imdb": 8.1
         },
         {
           "rank": 173,
           "id": "tt0264464",
-          "title": "Catch Me If You Can"
+          "title": "Catch Me If You Can",
+          "imdb": 8.1
         },
         {
           "rank": 174,
           "id": "tt0434409",
-          "title": "V for Vendetta"
+          "title": "V for Vendetta",
+          "imdb": 8.1
         },
         {
           "rank": 175,
           "id": "tt0346336",
-          "title": "La meglio gioventù"
+          "title": "La meglio gioventù",
+          "imdb": 8.4
         },
         {
           "rank": 176,
           "id": "tt0097165",
-          "title": "Dead Poets Society"
+          "title": "Dead Poets Society",
+          "imdb": 8.1
         },
         {
           "rank": 177,
           "id": "tt2096673",
-          "title": "Inside Out"
+          "title": "Inside Out",
+          "imdb": 8.1
         },
         {
           "rank": 178,
           "id": "tt0117951",
-          "title": "Trainspotting"
+          "title": "Trainspotting",
+          "imdb": 8.1
         },
         {
           "rank": 179,
           "id": "tt1201607",
-          "title": "Harry Potter and the Deathly Hallows: Part 2"
+          "title": "Harry Potter and the Deathly Hallows: Part 2",
+          "imdb": 8.1
         },
         {
           "rank": 180,
           "id": "tt5027774",
-          "title": "Three Billboards Outside Ebbing, Missouri"
+          "title": "Three Billboards Outside Ebbing, Missouri",
+          "imdb": 8.1
         },
         {
           "rank": 181,
           "id": "tt0050212",
-          "title": "The Bridge on the River Kwai"
+          "title": "The Bridge on the River Kwai",
+          "imdb": 8.1
         },
         {
           "rank": 182,
           "id": "tt0042876",
-          "title": "Rashômon"
+          "title": "Rashômon",
+          "imdb": 8.1
         },
         {
           "rank": 183,
           "id": "tt0072684",
-          "title": "Barry Lyndon"
+          "title": "Barry Lyndon",
+          "imdb": 8.1
         },
         {
           "rank": 184,
           "id": "tt0052618",
-          "title": "Ben-Hur"
+          "title": "Ben-Hur",
+          "imdb": 8.1
         },
         {
           "rank": 185,
           "id": "tt29623480",
-          "title": "The Wild Robot"
+          "title": "The Wild Robot",
+          "imdb": 8.1
         },
         {
           "rank": 186,
           "id": "tt1291584",
-          "title": "Warrior"
+          "title": "Warrior",
+          "imdb": 8.1
         },
         {
           "rank": 187,
           "id": "tt2119532",
-          "title": "Hacksaw Ridge"
+          "title": "Hacksaw Ridge",
+          "imdb": 8.1
         },
         {
           "rank": 188,
           "id": "tt0116282",
-          "title": "Fargo"
+          "title": "Fargo",
+          "imdb": 8.1
         },
         {
           "rank": 189,
           "id": "tt1392190",
-          "title": "Mad Max: Fury Road"
+          "title": "Mad Max: Fury Road",
+          "imdb": 8.1
         },
         {
           "rank": 190,
           "id": "tt0382932",
-          "title": "Ratatouille"
+          "title": "Ratatouille",
+          "imdb": 8.1
         },
         {
           "rank": 191,
           "id": "tt0405159",
-          "title": "Million Dollar Baby"
+          "title": "Million Dollar Baby",
+          "imdb": 8.1
         },
         {
           "rank": 192,
           "id": "tt0118849",
-          "title": "Bacheha-ye aseman"
+          "title": "Bacheha-ye aseman",
+          "imdb": 8.2
         },
         {
           "rank": 193,
           "id": "tt0096283",
-          "title": "Tonari no Totoro"
+          "title": "Tonari no Totoro",
+          "imdb": 8.1
         },
         {
           "rank": 194,
           "id": "tt1205489",
-          "title": "Gran Torino"
+          "title": "Gran Torino",
+          "imdb": 8.1
         },
         {
           "rank": 195,
           "id": "tt0081398",
-          "title": "Raging Bull"
+          "title": "Raging Bull",
+          "imdb": 8.1
         },
         {
           "rank": 196,
           "id": "tt2024544",
-          "title": "12 Years a Slave"
+          "title": "12 Years a Slave",
+          "imdb": 8.1
         },
         {
           "rank": 197,
           "id": "tt0892769",
-          "title": "How to Train Your Dragon"
+          "title": "How to Train Your Dragon",
+          "imdb": 8.1
         },
         {
           "rank": 198,
           "id": "tt0353969",
-          "title": "Salinui chueok"
+          "title": "Salinui chueok",
+          "imdb": 8.1
         },
         {
           "rank": 199,
           "id": "tt2278388",
-          "title": "The Grand Budapest Hotel"
+          "title": "The Grand Budapest Hotel",
+          "imdb": 8.1
         },
         {
           "rank": 200,
           "id": "tt0112471",
-          "title": "Before Sunrise"
+          "title": "Before Sunrise",
+          "imdb": 8.1
         },
         {
           "rank": 201,
           "id": "tt0198781",
-          "title": "Monsters, Inc."
+          "title": "Monsters, Inc.",
+          "imdb": 8.1
         },
         {
           "rank": 202,
           "id": "tt0083658",
-          "title": "Blade Runner"
+          "title": "Blade Runner",
+          "imdb": 8.1
         },
         {
           "rank": 203,
           "id": "tt2267998",
-          "title": "Gone Girl"
+          "title": "Gone Girl",
+          "imdb": 8.1
         },
         {
           "rank": 204,
           "id": "tt1950186",
-          "title": "Ford v Ferrari"
+          "title": "Ford v Ferrari",
+          "imdb": 8.1
         },
         {
           "rank": 205,
           "id": "tt0073195",
-          "title": "Jaws"
+          "title": "Jaws",
+          "imdb": 8.1
         },
         {
           "rank": 206,
           "id": "tt0107207",
-          "title": "In the Name of the Father"
+          "title": "In the Name of the Father",
+          "imdb": 8.1
         },
         {
           "rank": 207,
           "id": "tt10872600",
-          "title": "Spider-Man: No Way Home"
+          "title": "Spider-Man: No Way Home",
+          "imdb": 8.1
         },
         {
           "rank": 208,
           "id": "tt30472557",
-          "title": "Gekijô-ban Chensô Man Reze-hen"
+          "title": "Gekijô-ban Chensô Man Reze-hen",
+          "imdb": 8.3
         },
         {
           "rank": 209,
           "id": "tt3011894",
-          "title": "Relatos salvajes"
+          "title": "Relatos salvajes",
+          "imdb": 8.1
         },
         {
           "rank": 210,
           "id": "tt0015864",
-          "title": "The Gold Rush"
+          "title": "The Gold Rush",
+          "imdb": 8.1
         },
         {
           "rank": 211,
           "id": "tt0015324",
-          "title": "Sherlock Jr."
+          "title": "Sherlock Jr.",
+          "imdb": 8.1
         },
         {
           "rank": 212,
           "id": "tt5323662",
-          "title": "Koe no katachi"
+          "title": "Koe no katachi",
+          "imdb": 8.2
         },
         {
           "rank": 213,
           "id": "tt0978762",
-          "title": "Mary and Max."
+          "title": "Mary and Max.",
+          "imdb": 8.1
         },
         {
           "rank": 214,
           "id": "tt0077416",
-          "title": "The Deer Hunter"
+          "title": "The Deer Hunter",
+          "imdb": 8.1
         },
         {
           "rank": 215,
           "id": "tt0046268",
-          "title": "Le salaire de la peur"
+          "title": "Le salaire de la peur",
+          "imdb": 8.1
         },
         {
           "rank": 216,
           "id": "tt3315342",
-          "title": "Logan"
+          "title": "Logan",
+          "imdb": 8.1
         },
         {
           "rank": 217,
           "id": "tt0075148",
-          "title": "Rocky"
+          "title": "Rocky",
+          "imdb": 8.1
         },
         {
           "rank": 218,
           "id": "tt0325980",
-          "title": "Pirates of the Caribbean: The Curse of the Black Pearl"
+          "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+          "imdb": 8.1
         },
         {
           "rank": 219,
           "id": "tt0017925",
-          "title": "The General"
+          "title": "The General",
+          "imdb": 8.1
         },
         {
           "rank": 220,
           "id": "tt0031679",
-          "title": "Mr. Smith Goes to Washington"
+          "title": "Mr. Smith Goes to Washington",
+          "imdb": 8.1
         },
         {
           "rank": 221,
           "id": "tt0046438",
-          "title": "Tôkyô monogatari"
+          "title": "Tôkyô monogatari",
+          "imdb": 8.1
         },
         {
           "rank": 222,
           "id": "tt15097216",
-          "title": "Jai Bhim"
+          "title": "Jai Bhim",
+          "imdb": 8.6
         },
         {
           "rank": 223,
           "id": "tt0113247",
-          "title": "La haine"
+          "title": "La haine",
+          "imdb": 8.1
         },
         {
           "rank": 224,
           "id": "tt1895587",
-          "title": "Spotlight"
+          "title": "Spotlight",
+          "imdb": 8.1
         },
         {
           "rank": 225,
           "id": "tt26548265",
-          "title": "Maharaja"
+          "title": "Maharaja",
+          "imdb": 8.3
         },
         {
           "rank": 226,
           "id": "tt0059742",
-          "title": "The Sound of Music"
+          "title": "The Sound of Music",
+          "imdb": 8.1
         },
         {
           "rank": 227,
           "id": "tt0088247",
-          "title": "The Terminator"
+          "title": "The Terminator",
+          "imdb": 8.1
         },
         {
           "rank": 228,
           "id": "tt0050986",
-          "title": "Smultronstället"
+          "title": "Smultronstället",
+          "imdb": 8.1
         },
         {
           "rank": 229,
           "id": "tt0047296",
-          "title": "On the Waterfront"
+          "title": "On the Waterfront",
+          "imdb": 8.1
         },
         {
           "rank": 230,
           "id": "tt0036868",
-          "title": "The Best Years of Our Lives"
+          "title": "The Best Years of Our Lives",
+          "imdb": 8.1
         },
         {
           "rank": 231,
           "id": "tt0041959",
-          "title": "The Third Man"
+          "title": "The Third Man",
+          "imdb": 8.1
         },
         {
           "rank": 232,
           "id": "tt0118715",
-          "title": "The Big Lebowski"
+          "title": "The Big Lebowski",
+          "imdb": 8.1
         },
         {
           "rank": 233,
           "id": "tt0317705",
-          "title": "The Incredibles"
+          "title": "The Incredibles",
+          "imdb": 8
         },
         {
           "rank": 234,
           "id": "tt0381681",
-          "title": "Before Sunset"
+          "title": "Before Sunset",
+          "imdb": 8.1
         },
         {
           "rank": 235,
           "id": "tt1028532",
-          "title": "Hachi: A Dog's Tale"
+          "title": "Hachi: A Dog's Tale",
+          "imdb": 8.1
         },
         {
           "rank": 236,
           "id": "tt0252488",
-          "title": "Hababam Sinifi: Sinifta Kaldi"
+          "title": "Hababam Sinifi: Sinifta Kaldi",
+          "imdb": 8.4
         },
         {
           "rank": 237,
           "id": "tt3170832",
-          "title": "Room"
+          "title": "Room",
+          "imdb": 8.1
         },
         {
           "rank": 238,
           "id": "tt0070047",
-          "title": "The Exorcist"
+          "title": "The Exorcist",
+          "imdb": 8.1
         },
         {
           "rank": 239,
           "id": "tt0395169",
-          "title": "Hotel Rwanda"
+          "title": "Hotel Rwanda",
+          "imdb": 8.1
         },
         {
           "rank": 240,
           "id": "tt0129167",
-          "title": "The Iron Giant"
+          "title": "The Iron Giant",
+          "imdb": 8.1
         },
         {
           "rank": 241,
           "id": "tt0050976",
-          "title": "Det sjunde inseglet"
+          "title": "Det sjunde inseglet",
+          "imdb": 8.1
         },
         {
           "rank": 242,
           "id": "tt0091763",
-          "title": "Platoon"
+          "title": "Platoon",
+          "imdb": 8
         },
         {
           "rank": 243,
           "id": "tt1979320",
-          "title": "Rush"
+          "title": "Rush",
+          "imdb": 8.1
         },
         {
           "rank": 244,
           "id": "tt0092005",
-          "title": "Stand by Me"
+          "title": "Stand by Me",
+          "imdb": 8.1
         },
         {
           "rank": 245,
           "id": "tt0032138",
-          "title": "The Wizard of Oz"
+          "title": "The Wizard of Oz",
+          "imdb": 8.1
         },
         {
           "rank": 246,
           "id": "tt0058946",
-          "title": "La battaglia di Algeri"
+          "title": "La battaglia di Algeri",
+          "imdb": 8.1
         },
         {
           "rank": 247,
           "id": "tt0476735",
-          "title": "Babam ve Oglum"
+          "title": "Babam ve Oglum",
+          "imdb": 8.2
         },
         {
           "rank": 248,
           "id": "tt0019254",
-          "title": "La passion de Jeanne d'Arc"
+          "title": "La passion de Jeanne d'Arc",
+          "imdb": 8.1
         },
         {
           "rank": 249,
           "id": "tt0077711",
-          "title": "Höstsonaten"
+          "title": "Höstsonaten",
+          "imdb": 8.1
         },
         {
           "rank": 250,
           "id": "tt3417422",
-          "title": "Drishyam"
+          "title": "Drishyam",
+          "imdb": 8.4
         }
       ]
     },
@@ -1266,1252 +1516,1502 @@
         {
           "rank": 1,
           "id": "tt0903747",
-          "title": "Breaking Bad"
+          "title": "Breaking Bad",
+          "imdb": 9.5
         },
         {
           "rank": 2,
           "id": "tt5491994",
-          "title": "Planet Earth II"
+          "title": "Planet Earth II",
+          "imdb": 9.4
         },
         {
           "rank": 3,
           "id": "tt0795176",
-          "title": "Planet Earth"
+          "title": "Planet Earth",
+          "imdb": 9.4
         },
         {
           "rank": 4,
           "id": "tt0185906",
-          "title": "Band of Brothers"
+          "title": "Band of Brothers",
+          "imdb": 9.4
         },
         {
           "rank": 5,
           "id": "tt7366338",
-          "title": "Chernobyl"
+          "title": "Chernobyl",
+          "imdb": 9.3
         },
         {
           "rank": 6,
           "id": "tt0417299",
-          "title": "Avatar: The Last Airbender"
+          "title": "Avatar: The Last Airbender",
+          "imdb": 9.3
         },
         {
           "rank": 7,
           "id": "tt0306414",
-          "title": "The Wire"
+          "title": "The Wire",
+          "imdb": 9.3
         },
         {
           "rank": 8,
           "id": "tt0141842",
-          "title": "The Sopranos"
+          "title": "The Sopranos",
+          "imdb": 9.2
         },
         {
           "rank": 9,
           "id": "tt6769208",
-          "title": "Blue Planet II"
+          "title": "Blue Planet II",
+          "imdb": 9.3
         },
         {
           "rank": 10,
           "id": "tt2395695",
-          "title": "Cosmos: A Spacetime Odyssey"
+          "title": "Cosmos: A Spacetime Odyssey",
+          "imdb": 9.2
         },
         {
           "rank": 11,
           "id": "tt0081846",
-          "title": "Cosmos"
+          "title": "Cosmos",
+          "imdb": 9.3
         },
         {
           "rank": 12,
           "id": "tt9253866",
-          "title": "Our Planet"
+          "title": "Our Planet",
+          "imdb": 9.2
         },
         {
           "rank": 13,
           "id": "tt0944947",
-          "title": "Game of Thrones"
+          "title": "Game of Thrones",
+          "imdb": 9.2
         },
         {
           "rank": 14,
           "id": "tt7678620",
-          "title": "Bluey"
+          "title": "Bluey",
+          "imdb": 9.2
         },
         {
           "rank": 15,
           "id": "tt0071075",
-          "title": "The World at War"
+          "title": "The World at War",
+          "imdb": 9.2
         },
         {
           "rank": 16,
           "id": "tt2560140",
-          "title": "Shingeki no kyojin"
+          "title": "Shingeki no kyojin",
+          "imdb": 9.1
         },
         {
           "rank": 17,
           "id": "tt1355642",
-          "title": "Hagane no renkinjutsushi"
+          "title": "Hagane no renkinjutsushi",
+          "imdb": 9.1
         },
         {
           "rank": 18,
           "id": "tt1533395",
-          "title": "Life"
+          "title": "Life",
+          "imdb": 9.1
         },
         {
           "rank": 19,
           "id": "tt8420184",
-          "title": "The Last Dance"
+          "title": "The Last Dance",
+          "imdb": 9
         },
         {
           "rank": 20,
           "id": "tt0052520",
-          "title": "The Twilight Zone"
+          "title": "The Twilight Zone",
+          "imdb": 9
         },
         {
           "rank": 21,
           "id": "tt1877514",
-          "title": "The Vietnam War"
+          "title": "The Vietnam War",
+          "imdb": 9.1
         },
         {
           "rank": 22,
           "id": "tt2861424",
-          "title": "Rick and Morty"
+          "title": "Rick and Morty",
+          "imdb": 9
         },
         {
           "rank": 23,
           "id": "tt1475582",
-          "title": "Sherlock"
+          "title": "Sherlock",
+          "imdb": 9
         },
         {
           "rank": 24,
           "id": "tt0103359",
-          "title": "Batman: The Animated Series"
+          "title": "Batman: The Animated Series",
+          "imdb": 9
         },
         {
           "rank": 25,
           "id": "tt3032476",
-          "title": "Better Call Saul"
+          "title": "Better Call Saul",
+          "imdb": 9
         },
         {
           "rank": 26,
           "id": "tt0386676",
-          "title": "The Office"
+          "title": "The Office",
+          "imdb": 9
         },
         {
           "rank": 27,
           "id": "tt11126994",
-          "title": "Arcane: League of Legends"
+          "title": "Arcane: League of Legends",
+          "imdb": 9
         },
         {
           "rank": 28,
           "id": "tt10541088",
-          "title": "Clarkson's Farm"
+          "title": "Clarkson's Farm",
+          "imdb": 9
         },
         {
           "rank": 29,
           "id": "tt0296310",
-          "title": "The Blue Planet"
+          "title": "The Blue Planet",
+          "imdb": 9
         },
         {
           "rank": 30,
           "id": "tt2098220",
-          "title": "Hunter x Hunter"
+          "title": "Hunter x Hunter",
+          "imdb": 9
         },
         {
           "rank": 31,
           "id": "tt12392504",
-          "title": "Scam 1992: The Harshad Mehta Story"
+          "title": "Scam 1992: The Harshad Mehta Story",
+          "imdb": 9.2
         },
         {
           "rank": 32,
           "id": "tt2092588",
-          "title": "Frozen Planet"
+          "title": "Frozen Planet",
+          "imdb": 9
         },
         {
           "rank": 33,
           "id": "tt0081912",
-          "title": "Only Fools and Horses"
+          "title": "Only Fools and Horses",
+          "imdb": 9
         },
         {
           "rank": 34,
           "id": "tt1806234",
-          "title": "Human Planet"
+          "title": "Human Planet",
+          "imdb": 9
         },
         {
           "rank": 35,
           "id": "tt0111893",
-          "title": "The Beatles Anthology"
+          "title": "The Beatles Anthology",
+          "imdb": 9.1
         },
         {
           "rank": 36,
           "id": "tt33043892",
-          "title": "Dexter: Resurrection"
+          "title": "Dexter: Resurrection",
+          "imdb": 9
         },
         {
           "rank": 37,
           "id": "tt0098769",
-          "title": "The Civil War"
+          "title": "The Civil War",
+          "imdb": 9
         },
         {
           "rank": 38,
           "id": "tt13675832",
-          "title": "Gibi"
+          "title": "Gibi",
+          "imdb": 9
         },
         {
           "rank": 39,
           "id": "tt0303461",
-          "title": "Firefly"
+          "title": "Firefly",
+          "imdb": 8.9
         },
         {
           "rank": 40,
           "id": "tt31938062",
-          "title": "The Pitt"
+          "title": "The Pitt",
+          "imdb": 8.9
         },
         {
           "rank": 41,
           "id": "tt1865718",
-          "title": "Gravity Falls"
+          "title": "Gravity Falls",
+          "imdb": 8.9
         },
         {
           "rank": 42,
           "id": "tt0877057",
-          "title": "Death Note: Desu nôto"
+          "title": "Death Note: Desu nôto",
+          "imdb": 8.9
         },
         {
           "rank": 43,
           "id": "tt4934214",
-          "title": "Taskmaster"
+          "title": "Taskmaster",
+          "imdb": 9
         },
         {
           "rank": 44,
           "id": "tt22248376",
-          "title": "Sôsô no Furîren"
+          "title": "Sôsô no Furîren",
+          "imdb": 8.9
         },
         {
           "rank": 45,
           "id": "tt0092337",
-          "title": "Dekalog"
+          "title": "Dekalog",
+          "imdb": 8.9
         },
         {
           "rank": 46,
           "id": "tt9735318",
-          "title": "The Beatles: Get Back"
+          "title": "The Beatles: Get Back",
+          "imdb": 8.9
         },
         {
           "rank": 47,
           "id": "tt0098904",
-          "title": "Seinfeld"
+          "title": "Seinfeld",
+          "imdb": 8.8
         },
         {
           "rank": 48,
           "id": "tt0213338",
-          "title": "Kaubôi bibappu"
+          "title": "Kaubôi bibappu",
+          "imdb": 8.9
         },
         {
           "rank": 49,
           "id": "tt2356777",
-          "title": "True Detective"
+          "title": "True Detective",
+          "imdb": 8.8
         },
         {
           "rank": 50,
           "id": "tt2297757",
-          "title": "Nathan for You"
+          "title": "Nathan for You",
+          "imdb": 8.9
         },
         {
           "rank": 51,
           "id": "tt1508238",
-          "title": "Apocalypse: La 2ème guerre mondiale"
+          "title": "Apocalypse: La 2ème guerre mondiale",
+          "imdb": 9
         },
         {
           "rank": 52,
           "id": "tt2802850",
-          "title": "Fargo"
+          "title": "Fargo",
+          "imdb": 8.8
         },
         {
           "rank": 53,
           "id": "tt7920978",
-          "title": "Sahsiyet"
+          "title": "Sahsiyet",
+          "imdb": 8.9
         },
         {
           "rank": 54,
           "id": "tt0388629",
-          "title": "One Piece: Wan pîsu"
+          "title": "One Piece: Wan pîsu",
+          "imdb": 9
         },
         {
           "rank": 55,
           "id": "tt2571774",
-          "title": "Africa"
+          "title": "Africa",
+          "imdb": 8.9
         },
         {
           "rank": 56,
           "id": "tt5622316",
-          "title": "The Chosen"
+          "title": "The Chosen",
+          "imdb": 9.1
         },
         {
           "rank": 57,
           "id": "tt14986406",
-          "title": "Bleach: Sennen Kessen-hen"
+          "title": "Bleach: Sennen Kessen-hen",
+          "imdb": 9
         },
         {
           "rank": 58,
           "id": "tt0200276",
-          "title": "The West Wing"
+          "title": "The West Wing",
+          "imdb": 8.9
         },
         {
           "rank": 59,
           "id": "tt0108778",
-          "title": "Friends"
+          "title": "Friends",
+          "imdb": 8.8
         },
         {
           "rank": 60,
           "id": "tt7137906",
-          "title": "When They See Us"
+          "title": "When They See Us",
+          "imdb": 8.8
         },
         {
           "rank": 61,
           "id": "tt26471411",
-          "title": "Pokssak sogatsuda"
+          "title": "Pokssak sogatsuda",
+          "imdb": 9
         },
         {
           "rank": 62,
           "id": "tt0472954",
-          "title": "It's Always Sunny in Philadelphia"
+          "title": "It's Always Sunny in Philadelphia",
+          "imdb": 8.8
         },
         {
           "rank": 63,
           "id": "tt4742876",
-          "title": "TVF Pitchers"
+          "title": "TVF Pitchers",
+          "imdb": 9
         },
         {
           "rank": 64,
           "id": "tt3530232",
-          "title": "Last Week Tonight with John Oliver"
+          "title": "Last Week Tonight with John Oliver",
+          "imdb": 8.8
         },
         {
           "rank": 65,
           "id": "tt7660850",
-          "title": "Succession"
+          "title": "Succession",
+          "imdb": 8.8
         },
         {
           "rank": 66,
           "id": "tt10233448",
-          "title": "Vinland Saga"
+          "title": "Vinland Saga",
+          "imdb": 8.9
         },
         {
           "rank": 67,
           "id": "tt3398228",
-          "title": "BoJack Horseman"
+          "title": "BoJack Horseman",
+          "imdb": 8.8
         },
         {
           "rank": 68,
           "id": "tt0264235",
-          "title": "Curb Your Enthusiasm"
+          "title": "Curb Your Enthusiasm",
+          "imdb": 8.8
         },
         {
           "rank": 69,
           "id": "tt12004706",
-          "title": "Panchayat"
+          "title": "Panchayat",
+          "imdb": 9
         },
         {
           "rank": 70,
           "id": "tt0081834",
-          "title": "Das Boot"
+          "title": "Das Boot",
+          "imdb": 8.8
         },
         {
           "rank": 71,
           "id": "tt0063929",
-          "title": "Monty Python's Flying Circus"
+          "title": "Monty Python's Flying Circus",
+          "imdb": 8.8
         },
         {
           "rank": 72,
           "id": "tt0072500",
-          "title": "Fawlty Towers"
+          "title": "Fawlty Towers",
+          "imdb": 8.8
         },
         {
           "rank": 73,
           "id": "tt10530900",
-          "title": "Gullak"
+          "title": "Gullak",
+          "imdb": 9.1
         },
         {
           "rank": 74,
           "id": "tt0214341",
-          "title": "Dragon Ball Z"
+          "title": "Dragon Ball Z",
+          "imdb": 8.8
         },
         {
           "rank": 75,
           "id": "tt0096548",
-          "title": "Blackadder Goes Forth"
+          "title": "Blackadder Goes Forth",
+          "imdb": 8.8
         },
         {
           "rank": 76,
           "id": "tt0121220",
-          "title": "Dragon Ball Z: Doragon bôru zetto"
+          "title": "Dragon Ball Z: Doragon bôru zetto",
+          "imdb": 8.8
         },
         {
           "rank": 77,
           "id": "tt1831164",
-          "title": "Leyla ile Mecnun"
+          "title": "Leyla ile Mecnun",
+          "imdb": 9
         },
         {
           "rank": 78,
           "id": "tt0353049",
-          "title": "Chappelle's Show"
+          "title": "Chappelle's Show",
+          "imdb": 8.8
         },
         {
           "rank": 79,
           "id": "tt0193676",
-          "title": "Freaks and Geeks"
+          "title": "Freaks and Geeks",
+          "imdb": 8.7
         },
         {
           "rank": 80,
           "id": "tt0112130",
-          "title": "Pride and Prejudice"
+          "title": "Pride and Prejudice",
+          "imdb": 8.8
         },
         {
           "rank": 81,
           "id": "tt0098936",
-          "title": "Twin Peaks"
+          "title": "Twin Peaks",
+          "imdb": 8.7
         },
         {
           "rank": 82,
           "id": "tt5182866",
-          "title": "Eungdaphara 1988"
+          "title": "Eungdaphara 1988",
+          "imdb": 9
         },
         {
           "rank": 83,
           "id": "tt2707408",
-          "title": "Narcos"
+          "title": "Narcos",
+          "imdb": 8.7
         },
         {
           "rank": 84,
           "id": "tt0074006",
-          "title": "I, Claudius"
+          "title": "I, Claudius",
+          "imdb": 8.8
         },
         {
           "rank": 85,
           "id": "tt9432978",
-          "title": "Kota Factory"
+          "title": "Kota Factory",
+          "imdb": 9
         },
         {
           "rank": 86,
           "id": "tt0121955",
-          "title": "South Park"
+          "title": "South Park",
+          "imdb": 8.7
         },
         {
           "rank": 87,
           "id": "tt0318871",
-          "title": "Kenpuu Denki Berserk"
+          "title": "Kenpuu Denki Berserk",
+          "imdb": 8.8
         },
         {
           "rank": 88,
           "id": "tt1910272",
-          "title": "Steins; Gate"
+          "title": "Steins; Gate",
+          "imdb": 8.8
         },
         {
           "rank": 89,
           "id": "tt3718778",
-          "title": "Over the Garden Wall"
+          "title": "Over the Garden Wall",
+          "imdb": 8.7
         },
         {
           "rank": 90,
           "id": "tt7923710",
-          "title": "Naui ajusshi"
+          "title": "Naui ajusshi",
+          "imdb": 9
         },
         {
           "rank": 91,
           "id": "tt10986410",
-          "title": "Ted Lasso"
+          "title": "Ted Lasso",
+          "imdb": 8.7
         },
         {
           "rank": 92,
           "id": "tt2085059",
-          "title": "Black Mirror"
+          "title": "Black Mirror",
+          "imdb": 8.7
         },
         {
           "rank": 93,
           "id": "tt2442560",
-          "title": "Peaky Blinders"
+          "title": "Peaky Blinders",
+          "imdb": 8.7
         },
         {
           "rank": 94,
           "id": "tt0248654",
-          "title": "Six Feet Under"
+          "title": "Six Feet Under",
+          "imdb": 8.7
         },
         {
           "rank": 95,
           "id": "tt0434706",
-          "title": "Monster"
+          "title": "Monster",
+          "imdb": 8.8
         },
         {
           "rank": 96,
           "id": "tt5753856",
-          "title": "Dark"
+          "title": "Dark",
+          "imdb": 8.7
         },
         {
           "rank": 97,
           "id": "tt0384766",
-          "title": "Rome"
+          "title": "Rome",
+          "imdb": 8.7
         },
         {
           "rank": 98,
           "id": "tt0118421",
-          "title": "Oz"
+          "title": "Oz",
+          "imdb": 8.7
         },
         {
           "rank": 99,
           "id": "tt0988824",
-          "title": "Naruto: Shippûden"
+          "title": "Naruto: Shippûden",
+          "imdb": 8.7
         },
         {
           "rank": 100,
           "id": "tt5712554",
-          "title": "The Grand Tour"
+          "title": "The Grand Tour",
+          "imdb": 8.7
         },
         {
           "rank": 101,
           "id": "tt6741278",
-          "title": "Invincible"
+          "title": "Invincible",
+          "imdb": 8.7
         },
         {
           "rank": 102,
           "id": "tt0286486",
-          "title": "The Shield"
+          "title": "The Shield",
+          "imdb": 8.7
         },
         {
           "rank": 103,
           "id": "tt1606375",
-          "title": "Downton Abbey"
+          "title": "Downton Abbey",
+          "imdb": 8.7
         },
         {
           "rank": 104,
           "id": "tt5687612",
-          "title": "Fleabag"
+          "title": "Fleabag",
+          "imdb": 8.7
         },
         {
           "rank": 105,
           "id": "tt16026746",
-          "title": "X-Men '97"
+          "title": "X-Men '97",
+          "imdb": 8.7
         },
         {
           "rank": 106,
           "id": "tt0407362",
-          "title": "Battlestar Galactica"
+          "title": "Battlestar Galactica",
+          "imdb": 8.7
         },
         {
           "rank": 107,
           "id": "tt0092455",
-          "title": "Star Trek: The Next Generation"
+          "title": "Star Trek: The Next Generation",
+          "imdb": 8.7
         },
         {
           "rank": 108,
           "id": "tt0804503",
-          "title": "Mad Men"
+          "title": "Mad Men",
+          "imdb": 8.7
         },
         {
           "rank": 109,
           "id": "tt0387764",
-          "title": "Peep Show"
+          "title": "Peep Show",
+          "imdb": 8.7
         },
         {
           "rank": 110,
           "id": "tt0281491",
-          "title": "Still Game"
+          "title": "Still Game",
+          "imdb": 8.9
         },
         {
           "rank": 111,
           "id": "tt13309742",
-          "title": "Blue Eye Samurai"
+          "title": "Blue Eye Samurai",
+          "imdb": 8.7
         },
         {
           "rank": 112,
           "id": "tt0096697",
-          "title": "The Simpsons"
+          "title": "The Simpsons",
+          "imdb": 8.6
         },
         {
           "rank": 113,
           "id": "tt0158417",
-          "title": "Mahabharat"
+          "title": "Mahabharat",
+          "imdb": 8.9
         },
         {
           "rank": 114,
           "id": "tt6025022",
-          "title": "Justice League Unlimited"
+          "title": "Justice League Unlimited",
+          "imdb": 8.7
         },
         {
           "rank": 115,
           "id": "tt0412142",
-          "title": "House M.D."
+          "title": "House M.D.",
+          "imdb": 8.7
         },
         {
           "rank": 116,
           "id": "tt0086661",
-          "title": "The Adventures of Sherlock Holmes"
+          "title": "The Adventures of Sherlock Holmes",
+          "imdb": 8.7
         },
         {
           "rank": 117,
           "id": "tt2303687",
-          "title": "Line of Duty"
+          "title": "Line of Duty",
+          "imdb": 8.7
         },
         {
           "rank": 118,
           "id": "tt1628033",
-          "title": "Top Gear"
+          "title": "Top Gear",
+          "imdb": 8.7
         },
         {
           "rank": 119,
           "id": "tt0994314",
-          "title": "Kôdo Giasu: Hangyaku no Rurûshu"
+          "title": "Kôdo Giasu: Hangyaku no Rurûshu",
+          "imdb": 8.7
         },
         {
           "rank": 120,
           "id": "tt0062588",
-          "title": "Mister Rogers' Neighborhood"
+          "title": "Mister Rogers' Neighborhood",
+          "imdb": 8.8
         },
         {
           "rank": 121,
           "id": "tt0481256",
-          "title": "Hajime no Ippo"
+          "title": "Hajime no Ippo",
+          "imdb": 8.8
         },
         {
           "rank": 122,
           "id": "tt0268093",
-          "title": "Ramayan"
+          "title": "Ramayan",
+          "imdb": 9
         },
         {
           "rank": 123,
           "id": "tt0758745",
-          "title": "Friday Night Lights"
+          "title": "Friday Night Lights",
+          "imdb": 8.7
         },
         {
           "rank": 124,
           "id": "tt0367279",
-          "title": "Arrested Development"
+          "title": "Arrested Development",
+          "imdb": 8.6
         },
         {
           "rank": 125,
           "id": "tt11280740",
-          "title": "Severance"
+          "title": "Severance",
+          "imdb": 8.6
         },
         {
           "rank": 126,
           "id": "tt7472896",
-          "title": "Mr Inbetween"
+          "title": "Mr Inbetween",
+          "imdb": 8.7
         },
         {
           "rank": 127,
           "id": "tt5788792",
-          "title": "The Marvelous Mrs. Maisel"
+          "title": "The Marvelous Mrs. Maisel",
+          "imdb": 8.6
         },
         {
           "rank": 128,
           "id": "tt1305826",
-          "title": "Adventure Time"
+          "title": "Adventure Time",
+          "imdb": 8.7
         },
         {
           "rank": 129,
           "id": "tt10801534",
-          "title": "How to with John Wilson"
+          "title": "How to with John Wilson",
+          "imdb": 8.7
         },
         {
           "rank": 130,
           "id": "tt5555260",
-          "title": "This Is Us"
+          "title": "This Is Us",
+          "imdb": 8.7
         },
         {
           "rank": 131,
           "id": "tt14392248",
-          "title": "Aspirants"
+          "title": "Aspirants",
+          "imdb": 9.1
         },
         {
           "rank": 132,
           "id": "tt0459159",
-          "title": "The Thick of It"
+          "title": "The Thick of It",
+          "imdb": 8.7
         },
         {
           "rank": 133,
           "id": "tt0111958",
-          "title": "Father Ted"
+          "title": "Father Ted",
+          "imdb": 8.6
         },
         {
           "rank": 134,
           "id": "tt1795096",
-          "title": "Behzat Ç."
+          "title": "Behzat Ç.",
+          "imdb": 8.8
         },
         {
           "rank": 135,
           "id": "tt0773262",
-          "title": "Dexter"
+          "title": "Dexter",
+          "imdb": 8.6
         },
         {
           "rank": 136,
           "id": "tt0106179",
-          "title": "The X Files"
+          "title": "The X Files",
+          "imdb": 8.6
         },
         {
           "rank": 137,
           "id": "tt1266020",
-          "title": "Parks and Recreation"
+          "title": "Parks and Recreation",
+          "imdb": 8.6
         },
         {
           "rank": 138,
           "id": "tt13991232",
-          "title": "1883"
+          "title": "1883",
+          "imdb": 8.6
         },
         {
           "rank": 139,
           "id": "tt30263074",
-          "title": "Sapne vs Everyone"
+          "title": "Sapne vs Everyone",
+          "imdb": 9.2
         },
         {
           "rank": 140,
           "id": "tt0094525",
-          "title": "Poirot"
+          "title": "Poirot",
+          "imdb": 8.6
         },
         {
           "rank": 141,
           "id": "tt0348914",
-          "title": "Deadwood"
+          "title": "Deadwood",
+          "imdb": 8.6
         },
         {
           "rank": 142,
           "id": "tt4786824",
-          "title": "The Crown"
+          "title": "The Crown",
+          "imdb": 8.6
         },
         {
           "rank": 143,
           "id": "tt4288182",
-          "title": "Atlanta"
+          "title": "Atlanta",
+          "imdb": 8.6
         },
         {
           "rank": 144,
           "id": "tt3322312",
-          "title": "Daredevil"
+          "title": "Daredevil",
+          "imdb": 8.6
         },
         {
           "rank": 145,
           "id": "tt1518542",
-          "title": "Sarabhai V/S Sarabhai"
+          "title": "Sarabhai V/S Sarabhai",
+          "imdb": 8.8
         },
         {
           "rank": 146,
           "id": "tt0096639",
-          "title": "Lonesome Dove"
+          "title": "Lonesome Dove",
+          "imdb": 8.6
         },
         {
           "rank": 147,
           "id": "tt1733785",
-          "title": "Bron/Broen"
+          "title": "Bron/Broen",
+          "imdb": 8.6
         },
         {
           "rank": 148,
           "id": "tt0096657",
-          "title": "Mr. Bean"
+          "title": "Mr. Bean",
+          "imdb": 8.6
         },
         {
           "rank": 149,
           "id": "tt5290382",
-          "title": "Mindhunter"
+          "title": "Mindhunter",
+          "imdb": 8.6
         },
         {
           "rank": 150,
           "id": "tt9140342",
-          "title": "It's a Sin"
+          "title": "It's a Sin",
+          "imdb": 8.6
         },
         {
           "rank": 151,
           "id": "tt1856010",
-          "title": "House of Cards"
+          "title": "House of Cards",
+          "imdb": 8.6
         },
         {
           "rank": 152,
           "id": "tt10332508",
-          "title": "Primal"
+          "title": "Primal",
+          "imdb": 8.6
         },
         {
           "rank": 153,
           "id": "tt3398540",
-          "title": "Haikyû!!"
+          "title": "Haikyû!!",
+          "imdb": 8.7
         },
         {
           "rank": 154,
           "id": "tt0088484",
-          "title": "Blackadder II"
+          "title": "Blackadder II",
+          "imdb": 8.6
         },
         {
           "rank": 155,
           "id": "tt8111088",
-          "title": "The Mandalorian"
+          "title": "The Mandalorian",
+          "imdb": 8.6
         },
         {
           "rank": 156,
           "id": "tt4063800",
-          "title": "Le bureau des légendes"
+          "title": "Le bureau des légendes",
+          "imdb": 8.7
         },
         {
           "rank": 157,
           "id": "tt27497448",
-          "title": "A Knight of the Seven Kingdoms"
+          "title": "A Knight of the Seven Kingdoms",
+          "imdb": 8.6
         },
         {
           "rank": 158,
           "id": "tt10850932",
-          "title": "Sarangeui bulsachak"
+          "title": "Sarangeui bulsachak",
+          "imdb": 8.7
         },
         {
           "rank": 159,
           "id": "tt0229889",
-          "title": "El Chavo del Ocho"
+          "title": "El Chavo del Ocho",
+          "imdb": 8.7
         },
         {
           "rank": 160,
           "id": "tt9253284",
-          "title": "Andor"
+          "title": "Andor",
+          "imdb": 8.6
         },
         {
           "rank": 161,
           "id": "tt13111040",
-          "title": "The Offer"
+          "title": "The Offer",
+          "imdb": 8.6
         },
         {
           "rank": 162,
           "id": "tt2788316",
-          "title": "Shogun"
+          "title": "Shogun",
+          "imdb": 8.6
         },
         {
           "rank": 163,
           "id": "tt0080306",
-          "title": "Yes Minister"
+          "title": "Yes Minister",
+          "imdb": 8.6
         },
         {
           "rank": 164,
           "id": "tt0090509",
-          "title": "The Return of Sherlock Holmes"
+          "title": "The Return of Sherlock Holmes",
+          "imdb": 8.7
         },
         {
           "rank": 165,
           "id": "tt4508902",
-          "title": "One Punch Man: Wanpanman"
+          "title": "One Punch Man: Wanpanman",
+          "imdb": 8.6
         },
         {
           "rank": 166,
           "id": "tt7562112",
-          "title": "Pose"
+          "title": "Pose",
+          "imdb": 8.6
         },
         {
           "rank": 167,
           "id": "tt9103932",
-          "title": "Greatest Events of WWII in Colour"
+          "title": "Greatest Events of WWII in Colour",
+          "imdb": 8.6
         },
         {
           "rank": 168,
           "id": "tt2049116",
-          "title": "Gomorra"
+          "title": "Gomorra",
+          "imdb": 8.6
         },
         {
           "rank": 169,
           "id": "tt0092324",
-          "title": "Blackadder the Third"
+          "title": "Blackadder the Third",
+          "imdb": 8.6
         },
         {
           "rank": 170,
           "id": "tt4299972",
-          "title": "The Jinx: The Life and Deaths of Robert Durst"
+          "title": "The Jinx: The Life and Deaths of Robert Durst",
+          "imdb": 8.6
         },
         {
           "rank": 171,
           "id": "tt15435876",
-          "title": "The Penguin"
+          "title": "The Penguin",
+          "imdb": 8.6
         },
         {
           "rank": 172,
           "id": "tt1870479",
-          "title": "The Newsroom"
+          "title": "The Newsroom",
+          "imdb": 8.6
         },
         {
           "rank": 173,
           "id": "tt5421602",
-          "title": "Anne with an E"
+          "title": "Anne with an E",
+          "imdb": 8.6
         },
         {
           "rank": 174,
           "id": "tt0106028",
-          "title": "Homicide: Life on the Street"
+          "title": "Homicide: Life on the Street",
+          "imdb": 8.6
         },
         {
           "rank": 175,
           "id": "tt2063241",
-          "title": "Omar"
+          "title": "Omar",
+          "imdb": 9
         },
         {
           "rank": 176,
           "id": "tt0979432",
-          "title": "Boardwalk Empire"
+          "title": "Boardwalk Empire",
+          "imdb": 8.5
         },
         {
           "rank": 177,
           "id": "tt21056886",
-          "title": "Scavengers Reign"
+          "title": "Scavengers Reign",
+          "imdb": 8.6
         },
         {
           "rank": 178,
           "id": "tt9174558",
-          "title": "Dopesick"
+          "title": "Dopesick",
+          "imdb": 8.6
         },
         {
           "rank": 179,
           "id": "tt4834232",
-          "title": "Critical Role"
+          "title": "Critical Role",
+          "imdb": 9
         },
         {
           "rank": 180,
           "id": "tt1486217",
-          "title": "Archer"
+          "title": "Archer",
+          "imdb": 8.6
         },
         {
           "rank": 181,
           "id": "tt8595766",
-          "title": "Yeh Meri Family"
+          "title": "Yeh Meri Family",
+          "imdb": 8.9
         },
         {
           "rank": 182,
           "id": "tt4574334",
-          "title": "Stranger Things"
+          "title": "Stranger Things",
+          "imdb": 8.6
         },
         {
           "rank": 183,
           "id": "tt0094517",
-          "title": "Mystery Science Theater 3000"
+          "title": "Mystery Science Theater 3000",
+          "imdb": 8.6
         },
         {
           "rank": 184,
           "id": "tt1489428",
-          "title": "Justified"
+          "title": "Justified",
+          "imdb": 8.6
         },
         {
           "rank": 185,
           "id": "tt0053488",
-          "title": "The Bugs Bunny Show"
+          "title": "The Bugs Bunny Show",
+          "imdb": 8.5
         },
         {
           "rank": 186,
           "id": "tt0380136",
-          "title": "QI"
+          "title": "QI",
+          "imdb": 8.6
         },
         {
           "rank": 187,
           "id": "tt35495073",
-          "title": "Heated Rivalry"
+          "title": "Heated Rivalry",
+          "imdb": 8.7
         },
         {
           "rank": 188,
           "id": "tt0314979",
-          "title": "Battlestar Galactica"
+          "title": "Battlestar Galactica",
+          "imdb": 8.5
         },
         {
           "rank": 189,
           "id": "tt2701582",
-          "title": "Endeavour"
+          "title": "Endeavour",
+          "imdb": 8.6
         },
         {
           "rank": 190,
           "id": "tt0417373",
-          "title": "The Venture Bros."
+          "title": "The Venture Bros.",
+          "imdb": 8.6
         },
         {
           "rank": 191,
           "id": "tt1710308",
-          "title": "Regular Show"
+          "title": "Regular Show",
+          "imdb": 8.6
         },
         {
           "rank": 192,
           "id": "tt0088509",
-          "title": "Dragon Ball: Doragon bôru"
+          "title": "Dragon Ball: Doragon bôru",
+          "imdb": 8.5
         },
         {
           "rank": 193,
           "id": "tt0275137",
-          "title": "Justice League"
+          "title": "Justice League",
+          "imdb": 8.5
         },
         {
           "rank": 194,
           "id": "tt0086831",
-          "title": "Yes, Prime Minister"
+          "title": "Yes, Prime Minister",
+          "imdb": 8.6
         },
         {
           "rank": 195,
           "id": "tt7908628",
-          "title": "What We Do in the Shadows"
+          "title": "What We Do in the Shadows",
+          "imdb": 8.5
         },
         {
           "rank": 196,
           "id": "tt1641384",
-          "title": "Young Justice"
+          "title": "Young Justice",
+          "imdb": 8.6
         },
         {
           "rank": 197,
           "id": "tt0423731",
-          "title": "Samurai Chanpurû"
+          "title": "Samurai Chanpurû",
+          "imdb": 8.5
         },
         {
           "rank": 198,
           "id": "tt0280249",
-          "title": "Dragon Ball"
+          "title": "Dragon Ball",
+          "imdb": 8.5
         },
         {
           "rank": 199,
           "id": "tt9335498",
-          "title": "Kimetsu no Yaiba"
+          "title": "Kimetsu no Yaiba",
+          "imdb": 8.5
         },
         {
           "rank": 200,
           "id": "tt6763664",
-          "title": "The Haunting of Hill House"
+          "title": "The Haunting of Hill House",
+          "imdb": 8.5
         },
         {
           "rank": 201,
           "id": "tt4082744",
-          "title": "Detectorists"
+          "title": "Detectorists",
+          "imdb": 8.6
         },
         {
           "rank": 202,
           "id": "tt6108262",
-          "title": "Senke nad Balkanom"
+          "title": "Senke nad Balkanom",
+          "imdb": 8.8
         },
         {
           "rank": 203,
           "id": "tt13868972",
-          "title": "Rocket Boys"
+          "title": "Rocket Boys",
+          "imdb": 8.8
         },
         {
           "rank": 204,
           "id": "tt0487831",
-          "title": "The IT Crowd"
+          "title": "The IT Crowd",
+          "imdb": 8.5
         },
         {
           "rank": 205,
           "id": "tt0863046",
-          "title": "Flight of the Conchords"
+          "title": "Flight of the Conchords",
+          "imdb": 8.5
         },
         {
           "rank": 206,
           "id": "tt4158110",
-          "title": "Mr. Robot"
+          "title": "Mr. Robot",
+          "imdb": 8.5
         },
         {
           "rank": 207,
           "id": "tt0278238",
-          "title": "Samurai Jack"
+          "title": "Samurai Jack",
+          "imdb": 8.5
         },
         {
           "rank": 208,
           "id": "tt9544034",
-          "title": "The Family Man"
+          "title": "The Family Man",
+          "imdb": 8.6
         },
         {
           "rank": 209,
           "id": "tt3428912",
-          "title": "Happy Valley"
+          "title": "Happy Valley",
+          "imdb": 8.5
         },
         {
           "rank": 210,
           "id": "tt7120662",
-          "title": "Derry Girls"
+          "title": "Derry Girls",
+          "imdb": 8.5
         },
         {
           "rank": 211,
           "id": "tt0237123",
-          "title": "Coupling"
+          "title": "Coupling",
+          "imdb": 8.5
         },
         {
           "rank": 212,
           "id": "tt10048342",
-          "title": "The Queen's Gambit"
+          "title": "The Queen's Gambit",
+          "imdb": 8.5
         },
         {
           "rank": 213,
           "id": "tt0129690",
-          "title": "I'm Alan Partridge"
+          "title": "I'm Alan Partridge",
+          "imdb": 8.6
         },
         {
           "rank": 214,
           "id": "tt1534360",
-          "title": "Ezel"
+          "title": "Ezel",
+          "imdb": 8.6
         },
         {
           "rank": 215,
           "id": "tt5897304",
-          "title": "Mob Psycho 100"
+          "title": "Mob Psycho 100",
+          "imdb": 8.5
         },
         {
           "rank": 216,
           "id": "tt10802170",
-          "title": "The Rehearsal"
+          "title": "The Rehearsal",
+          "imdb": 8.5
         },
         {
           "rank": 217,
           "id": "tt0403778",
-          "title": "Long Way Round"
+          "title": "Long Way Round",
+          "imdb": 8.6
         },
         {
           "rank": 218,
           "id": "tt12343534",
-          "title": "Jujutsu Kaisen"
+          "title": "Jujutsu Kaisen",
+          "imdb": 8.5
         },
         {
           "rank": 219,
           "id": "tt20859920",
-          "title": "Hwan Hon"
+          "title": "Hwan Hon",
+          "imdb": 8.7
         },
         {
           "rank": 220,
           "id": "tt10590066",
-          "title": "All Creatures Great & Small"
+          "title": "All Creatures Great & Small",
+          "imdb": 8.6
         },
         {
           "rank": 221,
           "id": "tt5189670",
-          "title": "Making a Murderer"
+          "title": "Making a Murderer",
+          "imdb": 8.5
         },
         {
           "rank": 222,
           "id": "tt4093826",
-          "title": "Twin Peaks"
+          "title": "Twin Peaks",
+          "imdb": 8.5
         },
         {
           "rank": 223,
           "id": "tt1124373",
-          "title": "Sons of Anarchy"
+          "title": "Sons of Anarchy",
+          "imdb": 8.5
         },
         {
           "rank": 224,
           "id": "tt0187664",
-          "title": "Spaced"
+          "title": "Spaced",
+          "imdb": 8.5
         },
         {
           "rank": 225,
           "id": "tt36988358",
-          "title": "Takopii no genzai"
+          "title": "Takopii no genzai",
+          "imdb": 8.7
         },
         {
           "rank": 226,
           "id": "tt0163507",
-          "title": "Whose Line Is It Anyway?"
+          "title": "Whose Line Is It Anyway?",
+          "imdb": 8.5
         },
         {
           "rank": 227,
           "id": "tt1190634",
-          "title": "The Boys"
+          "title": "The Boys",
+          "imdb": 8.5
         },
         {
           "rank": 228,
           "id": "tt2100976",
-          "title": "Impractical Jokers"
+          "title": "Impractical Jokers",
+          "imdb": 8.5
         },
         {
           "rank": 229,
           "id": "tt0112159",
-          "title": "Shinseiki Evangelion"
+          "title": "Shinseiki Evangelion",
+          "imdb": 8.5
         },
         {
           "rank": 230,
           "id": "tt0988818",
-          "title": "Gintama"
+          "title": "Gintama",
+          "imdb": 8.7
         },
         {
           "rank": 231,
           "id": "tt3895150",
-          "title": "Shigatsu wa kimi no uso"
+          "title": "Shigatsu wa kimi no uso",
+          "imdb": 8.6
         },
         {
           "rank": 232,
           "id": "tt7278862",
-          "title": "L'amica geniale"
+          "title": "L'amica geniale",
+          "imdb": 8.6
         },
         {
           "rank": 233,
           "id": "tt1513168",
-          "title": "Through the Wormhole"
+          "title": "Through the Wormhole",
+          "imdb": 8.6
         },
         {
           "rank": 234,
           "id": "tt1492966",
-          "title": "Louie"
+          "title": "Louie",
+          "imdb": 8.5
         },
         {
           "rank": 235,
           "id": "tt0075537",
-          "title": "Mind Your Language"
+          "title": "Mind Your Language",
+          "imdb": 8.6
         },
         {
           "rank": 236,
           "id": "tt0290988",
-          "title": "Trailer Park Boys"
+          "title": "Trailer Park Boys",
+          "imdb": 8.5
         },
         {
           "rank": 237,
           "id": "tt3526078",
-          "title": "Schitt$ Creek"
+          "title": "Schitt$ Creek",
+          "imdb": 8.5
         },
         {
           "rank": 238,
           "id": "tt27446493",
-          "title": "Banjjagineun Woteomellon"
+          "title": "Banjjagineun Woteomellon",
+          "imdb": 8.8
         },
         {
           "rank": 239,
           "id": "tt0290978",
-          "title": "The Office"
+          "title": "The Office",
+          "imdb": 8.5
         },
         {
           "rank": 240,
           "id": "tt4236770",
-          "title": "Yellowstone"
+          "title": "Yellowstone",
+          "imdb": 8.6
         },
         {
           "rank": 241,
           "id": "tt0118273",
-          "title": "Brass Eye"
+          "title": "Brass Eye",
+          "imdb": 8.6
         },
         {
           "rank": 242,
           "id": "tt1877368",
-          "title": "The Great British Bake Off"
+          "title": "The Great British Bake Off",
+          "imdb": 8.6
         },
         {
           "rank": 243,
           "id": "tt2244495",
-          "title": "The Eric Andre Show"
+          "title": "The Eric Andre Show",
+          "imdb": 8.5
         },
         {
           "rank": 244,
           "id": "tt12074628",
-          "title": "Smiling Friends"
+          "title": "Smiling Friends",
+          "imdb": 8.5
         },
         {
           "rank": 245,
           "id": "tt3212600",
-          "title": "Mahabharat"
+          "title": "Mahabharat",
+          "imdb": 8.7
         },
         {
           "rank": 246,
           "id": "tt0373732",
-          "title": "The Boondocks"
+          "title": "The Boondocks",
+          "imdb": 8.5
         },
         {
           "rank": 247,
           "id": "tt0203082",
-          "title": "Rurôni Kenshin: Meiji kenkaku romantan - Tsuioku-hen"
+          "title": "Rurôni Kenshin: Meiji kenkaku romantan - Tsuioku-hen",
+          "imdb": 8.6
         },
         {
           "rank": 248,
           "id": "tt3230854",
-          "title": "The Expanse"
+          "title": "The Expanse",
+          "imdb": 8.5
         },
         {
           "rank": 249,
           "id": "tt0310455",
-          "title": "Foyle's War"
+          "title": "Foyle's War",
+          "imdb": 8.6
         },
         {
           "rank": 250,
           "id": "tt5851616",
-          "title": "Tash Ma Tash"
+          "title": "Tash Ma Tash",
+          "imdb": 8.9
         }
       ]
     }
