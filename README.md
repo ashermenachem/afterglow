@@ -117,7 +117,7 @@ TMDb supplies artwork, title logos, genres, rankings and ratings. Movies and TV 
 
 Choose **Settings → Collection → IMDb Top 250**, then **Movies**, **TV shows**, or **Mix**. Selecting a chart starts at #1. Movies and TV each loop after 250 titles; Mix alternates movie #1, TV #1, movie #2, TV #2, through movie #250 and TV #250, then restarts at movie #1. Preferences are remembered; reloading starts at #1. Previous retraces the last 30 slides.
 
-Rankings come from a saved snapshot of the [IMDb movie chart](https://www.imdb.com/chart/top/) and [TV chart](https://www.imdb.com/chart/toptv/), obtained through the [crazyuploader chart archive](https://github.com/crazyuploader/IMDb-Top-50). The included archive files were updated September 12, 2026. **This is a dated third-party snapshot, not a live or independently verified IMDb feed.** Direct IMDb access was blocked during implementation. Settings links to each official chart and exact archive revision and shows its update date; current IMDb rankings may differ. An archive update timestamp does not guarantee the chart was freshly scraped, since upstream can preserve old data on failure.
+Rankings come from snapshots of the [IMDb movie chart](https://www.imdb.com/chart/top/) and [TV chart](https://www.imdb.com/chart/toptv/), obtained through the [crazyuploader chart archive](https://github.com/crazyuploader/IMDb-Top-50). A Vercel Cron Job checks that archive every day at 08:17 UTC, validates both complete 250-title charts, and atomically stores the new revision in shared Runtime Cache. The feed also performs the same refresh when its cached copy is missing or more than 24 hours old, so it self-heals after a missed job. If the archive or network is unavailable, the last valid cached or bundled chart remains online. **This is an automatically refreshed third-party snapshot, not a live or independently verified IMDb feed.** Direct IMDb access was blocked during implementation. Settings links to each official chart and exact archive revision and shows its update date. An archive update timestamp does not guarantee the chart was freshly scraped, since upstream can preserve old data on failure.
 
 Chart rank, IMDb ID, title and the archived IMDb score are stored. Chart order is preserved rather than reconstructed from rounded IMDb ratings or TMDb's Top Rated list. TMDb artwork is matched by exact IMDb ID and media type, then checked against the returned external ID. Missing, ambiguous or failed artwork displays a text title card at that rank; it never removes or substitutes a chart entry. Slow loading holds the current slide instead of jumping backward. Each playback session pins its complete sequence so a new deployment cannot reorder an ongoing cycle.
 
@@ -128,7 +128,7 @@ npm run refresh:imdb
 npm test
 ```
 
-Review `data/imdb-top250.json`, source dates and upstream provenance before committing and deploying. The refresh validates 250 unique IMDb IDs and contiguous ranks per chart, and records immutable source URLs. It does not run on every visit or automatically claim live accuracy.
+The manual command updates the bundled fallback used for local development and cache outages. The production refresh validates 250 unique IMDb IDs and contiguous ranks per chart, records immutable source URLs, and only replaces the active charts after both pass. Configure a sensitive `CRON_SECRET` environment variable in Vercel; Vercel sends it as a bearer token to the protected refresh endpoint.
 
 ### Watch on TV
 
@@ -146,7 +146,7 @@ Afterglow is a website, not an installed operating-system screensaver. Fullscree
 
 1. Fork this repository and import it into [Vercel](https://vercel.com/new).
 2. Keep the included Vite build configuration.
-3. Add `TMDB_API_KEY` and `OMDB_API_KEY` as **sensitive environment variables** in Vercel. Do not upload your `.env` file.
+3. Add `TMDB_API_KEY`, `OMDB_API_KEY`, and a random `CRON_SECRET` as **sensitive environment variables** in Vercel. Do not upload your `.env` file.
 4. Deploy. The Git integration automatically deploys changes pushed to the production branch and creates previews for other branches.
 
 Use your own provider keys and review their quotas/terms before making a public instance. Never put keys into GitHub Actions files, browser code, issue reports or screenshots.

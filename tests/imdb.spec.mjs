@@ -77,7 +77,7 @@ test("failed artwork preserves rank; switching charts resets; mirroring guide is
   );
   await expect(
     page.getByText(
-      "Saved chart snapshot via a third-party archive. Live IMDb rankings may have changed.",
+      "Automatically checked every day via a third-party archive. If an update is unavailable, the last valid chart stays online.",
     ),
   ).toBeVisible();
   await page.keyboard.press("Escape");

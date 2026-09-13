@@ -1,10 +1,10 @@
 {
-  "retrievedAt": "2026-09-13T02:31:52.540Z",
+  "retrievedAt": "2026-09-13T17:49:10.315Z",
   "charts": {
     "movie": {
       "source": "https://www.imdb.com/chart/top/",
-      "archive": "https://github.com/crazyuploader/IMDb-Top-50/blob/a9103258f3f8adfda1b623bae1dfa60e8529cc04/data/top250/movies.json",
-      "archiveUpdatedAt": "2026-09-12T03:33:04Z",
+      "archive": "https://github.com/crazyuploader/IMDb-Top-50/blob/da5b6c5bae462231c478e4e9857e5946b51344dc/data/top250/movies.json",
+      "archiveUpdatedAt": "2026-09-13T03:38:56Z",
       "items": [
         {
           "rank": 1,
@@ -670,7 +670,7 @@
           "rank": 111,
           "id": "tt31514146",
           "title": "I Swear",
-          "imdb": 8.4
+          "imdb": 8.3
         },
         {
           "rank": 112,
@@ -758,14 +758,14 @@
         },
         {
           "rank": 126,
-          "id": "tt0208092",
-          "title": "Snatch",
+          "id": "tt0120382",
+          "title": "The Truman Show",
           "imdb": 8.2
         },
         {
           "rank": 127,
-          "id": "tt0120382",
-          "title": "The Truman Show",
+          "id": "tt0208092",
+          "title": "Snatch",
           "imdb": 8.2
         },
         {
@@ -794,15 +794,15 @@
         },
         {
           "rank": 132,
-          "id": "tt5074352",
-          "title": "Dangal",
-          "imdb": 8.3
-        },
-        {
-          "rank": 133,
           "id": "tt6966692",
           "title": "Green Book",
           "imdb": 8.2
+        },
+        {
+          "rank": 133,
+          "id": "tt5074352",
+          "title": "Dangal",
+          "imdb": 8.3
         },
         {
           "rank": 134,
@@ -956,15 +956,15 @@
         },
         {
           "rank": 159,
-          "id": "tt12042730",
-          "title": "Project Hail Mary",
-          "imdb": 8.2
-        },
-        {
-          "rank": 160,
           "id": "tt32820897",
           "title": "Gekijô-ban Kimetsu no Yaiba Mugen Jô-hen",
           "imdb": 8.4
+        },
+        {
+          "rank": 160,
+          "id": "tt12042730",
+          "title": "Project Hail Mary",
+          "imdb": 8.2
         },
         {
           "rank": 161,
@@ -1130,8 +1130,8 @@
         },
         {
           "rank": 188,
-          "id": "tt0116282",
-          "title": "Fargo",
+          "id": "tt0382932",
+          "title": "Ratatouille",
           "imdb": 8.1
         },
         {
@@ -1142,8 +1142,8 @@
         },
         {
           "rank": 190,
-          "id": "tt0382932",
-          "title": "Ratatouille",
+          "id": "tt0116282",
+          "title": "Fargo",
           "imdb": 8.1
         },
         {
@@ -1334,15 +1334,15 @@
         },
         {
           "rank": 222,
-          "id": "tt15097216",
-          "title": "Jai Bhim",
-          "imdb": 8.6
-        },
-        {
-          "rank": 223,
           "id": "tt0113247",
           "title": "La haine",
           "imdb": 8.1
+        },
+        {
+          "rank": 223,
+          "id": "tt15097216",
+          "title": "Jai Bhim",
+          "imdb": 8.6
         },
         {
           "rank": 224,
@@ -1418,15 +1418,15 @@
         },
         {
           "rank": 236,
-          "id": "tt0252488",
-          "title": "Hababam Sinifi: Sinifta Kaldi",
-          "imdb": 8.4
-        },
-        {
-          "rank": 237,
           "id": "tt3170832",
           "title": "Room",
           "imdb": 8.1
+        },
+        {
+          "rank": 237,
+          "id": "tt0252488",
+          "title": "Hababam Sinifi: Sinifta Kaldi",
+          "imdb": 8.4
         },
         {
           "rank": 238,
@@ -1442,14 +1442,14 @@
         },
         {
           "rank": 240,
-          "id": "tt0129167",
-          "title": "The Iron Giant",
+          "id": "tt0050976",
+          "title": "Det sjunde inseglet",
           "imdb": 8.1
         },
         {
           "rank": 241,
-          "id": "tt0050976",
-          "title": "Det sjunde inseglet",
+          "id": "tt0129167",
+          "title": "The Iron Giant",
           "imdb": 8.1
         },
         {
@@ -1510,8 +1510,8 @@
     },
     "tv": {
       "source": "https://www.imdb.com/chart/toptv/",
-      "archive": "https://github.com/crazyuploader/IMDb-Top-50/blob/a9103258f3f8adfda1b623bae1dfa60e8529cc04/data/top250/shows.json",
-      "archiveUpdatedAt": "2026-09-12T03:33:04Z",
+      "archive": "https://github.com/crazyuploader/IMDb-Top-50/blob/da5b6c5bae462231c478e4e9857e5946b51344dc/data/top250/shows.json",
+      "archiveUpdatedAt": "2026-09-13T03:38:56Z",
       "items": [
         {
           "rank": 1,
@@ -2019,15 +2019,15 @@
         },
         {
           "rank": 85,
-          "id": "tt9432978",
-          "title": "Kota Factory",
-          "imdb": 9
-        },
-        {
-          "rank": 86,
           "id": "tt0121955",
           "title": "South Park",
           "imdb": 8.7
+        },
+        {
+          "rank": 86,
+          "id": "tt9432978",
+          "title": "Kota Factory",
+          "imdb": 9
         },
         {
           "rank": 87,
@@ -2283,14 +2283,14 @@
         },
         {
           "rank": 129,
-          "id": "tt10801534",
-          "title": "How to with John Wilson",
+          "id": "tt5555260",
+          "title": "This Is Us",
           "imdb": 8.7
         },
         {
           "rank": 130,
-          "id": "tt5555260",
-          "title": "This Is Us",
+          "id": "tt10801534",
+          "title": "How to with John Wilson",
           "imdb": 8.7
         },
         {
@@ -2337,15 +2337,15 @@
         },
         {
           "rank": 138,
-          "id": "tt13991232",
-          "title": "1883",
-          "imdb": 8.6
-        },
-        {
-          "rank": 139,
           "id": "tt30263074",
           "title": "Sapne vs Everyone",
           "imdb": 9.2
+        },
+        {
+          "rank": 139,
+          "id": "tt13991232",
+          "title": "1883",
+          "imdb": 8.6
         },
         {
           "rank": 140,
@@ -2763,14 +2763,14 @@
         },
         {
           "rank": 209,
-          "id": "tt3428912",
-          "title": "Happy Valley",
+          "id": "tt7120662",
+          "title": "Derry Girls",
           "imdb": 8.5
         },
         {
           "rank": 210,
-          "id": "tt7120662",
-          "title": "Derry Girls",
+          "id": "tt3428912",
+          "title": "Happy Valley",
           "imdb": 8.5
         },
         {
@@ -2913,15 +2913,15 @@
         },
         {
           "rank": 234,
-          "id": "tt1492966",
-          "title": "Louie",
-          "imdb": 8.5
-        },
-        {
-          "rank": 235,
           "id": "tt0075537",
           "title": "Mind Your Language",
           "imdb": 8.6
+        },
+        {
+          "rank": 235,
+          "id": "tt1492966",
+          "title": "Louie",
+          "imdb": 8.5
         },
         {
           "rank": 236,
@@ -2997,15 +2997,15 @@
         },
         {
           "rank": 248,
-          "id": "tt3230854",
-          "title": "The Expanse",
-          "imdb": 8.5
-        },
-        {
-          "rank": 249,
           "id": "tt0310455",
           "title": "Foyle's War",
           "imdb": 8.6
+        },
+        {
+          "rank": 249,
+          "id": "tt3230854",
+          "title": "The Expanse",
+          "imdb": 8.5
         },
         {
           "rank": 250,

@@ -6,6 +6,10 @@ import { getCache } from "@vercel/functions";
 import { createRatingsService, parseRatings } from "./lib/ratings.mjs";
 export { parseRatings } from "./lib/ratings.mjs";
 import { chartSequence } from "./lib/imdb.mjs";
+import {
+  createImdbChartsService,
+  fetchImdbCharts,
+} from "./lib/imdb-source.mjs";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { rateLimit } from "express-rate-limit";
 import { fileURLToPath } from "node:url";
@@ -14,6 +18,15 @@ const root = path.dirname(fileURLToPath(import.meta.url));
 // dotenv resolves from cwd; launch commands run from the project directory.
 const cache = new Map();
 const pending = new Map();
+const imdbCharts = createImdbChartsService({
+  bundled: imdbSnapshot,
+  fetchCharts: fetchImdbCharts,
+  shared: process.env.VERCEL
+    ? getCache({ namespace: "afterglow-imdb-v1" })
+    : undefined,
+  // The hosted site self-heals if a scheduled refresh is ever missed.
+  refreshOnRead: Boolean(process.env.VERCEL),
+});
 let active = 0;
 const waiters = [];
 if (!process.env.VERCEL)
@@ -140,19 +153,45 @@ function cacheResponse(res, seconds) {
   );
 }
 app.disable("x-powered-by");
+app.get("/api/cron/imdb", async (req, res) => {
+  if (
+    !process.env.CRON_SECRET ||
+    req.get("authorization") !== `Bearer ${process.env.CRON_SECRET}`
+  )
+    return res.status(401).json({ error: "Unauthorized" });
+  try {
+    const snapshot = await imdbCharts.refresh();
+    return res.json({
+      ok: true,
+      checkedAt: snapshot.retrievedAt,
+      charts: Object.fromEntries(
+        Object.entries(snapshot.charts).map(([type, chart]) => [
+          type,
+          { archive: chart.archive, archiveUpdatedAt: chart.archiveUpdatedAt },
+        ]),
+      ),
+    });
+  } catch {
+    return res.status(503).json({ error: "IMDb chart refresh failed" });
+  }
+});
 app.get("/api/feed", async (req, res) => {
   try {
     if (req.query.mode === "imdb") {
       const type = ["movie", "tv"].includes(req.query.type)
         ? req.query.type
         : "all";
+      const snapshot = await imdbCharts.get();
       cacheResponse(res, 3600);
       return res.json({
-        items: chartSequence(imdbSnapshot.charts, type),
+        items: chartSequence(snapshot.charts, type),
         cursor: null,
         charts: Object.fromEntries(
-          Object.entries(imdbSnapshot.charts).map(
-            ([type, { items, ...source }]) => [type, source],
+          Object.entries(snapshot.charts).map(
+            ([type, { items, ...source }]) => [
+              type,
+              { ...source, checkedAt: snapshot.retrievedAt },
+            ],
           ),
         ),
       });

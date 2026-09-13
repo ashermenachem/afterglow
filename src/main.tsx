@@ -41,6 +41,7 @@ type ChartSource = {
   source: string;
   archive: string;
   archiveUpdatedAt: string;
+  checkedAt: string;
 };
 const modes = [
   ["popular", "Popular now"],
@@ -728,8 +729,8 @@ function Settings({
               </p>
             ))}
           <p>
-            Saved chart snapshot via a third-party archive. Live IMDb rankings
-            may have changed.
+            Automatically checked every day via a third-party archive. If an
+            update is unavailable, the last valid chart stays online.
           </p>
         </div>
       )}
