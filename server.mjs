@@ -1,5 +1,7 @@
 import "dotenv/config";
 import express from "express";
+import imdbSnapshot from "./data/imdb-top250.json" with { type: "json" };
+import { chartSequence } from "./lib/imdb.mjs";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { rateLimit } from "express-rate-limit";
 import { fileURLToPath } from "node:url";
@@ -114,6 +116,21 @@ function cacheResponse(res, seconds) {
 app.disable("x-powered-by");
 app.get("/api/feed", async (req, res) => {
   try {
+    if (req.query.mode === "imdb") {
+      const type = ["movie", "tv"].includes(req.query.type)
+        ? req.query.type
+        : "all";
+      cacheResponse(res, 3600);
+      return res.json({
+        items: chartSequence(imdbSnapshot.charts, type),
+        cursor: null,
+        charts: Object.fromEntries(
+          Object.entries(imdbSnapshot.charts).map(
+            ([type, { items, ...source }]) => [type, source],
+          ),
+        ),
+      });
+    }
     const mode = ["popular", "day", "week", "rated", "shuffle"].includes(
       req.query.mode,
     )
@@ -204,13 +221,23 @@ app.get("/api/feed", async (req, res) => {
 });
 app.get("/api/title/:type/:id", async (req, res) => {
   const { type, id } = req.params;
-  if (!["movie", "tv"].includes(type) || !/^\d+$/.test(id))
+  if (!["movie", "tv"].includes(type) || !/^(?:\d+|tt\d{7,12})$/.test(id))
     return res.status(400).json({ error: "Invalid title" });
   try {
-    const d = await tmdb(`/${type}/${id}`, {
+    let tmdbId = id;
+    if (id.startsWith("tt")) {
+      const found = await tmdb(`/find/${id}`, { external_source: "imdb_id" });
+      const matches = found[`${type}_results`] || [];
+      if (matches.length !== 1)
+        return res.status(404).json({ error: "No exact title match" });
+      tmdbId = matches[0].id;
+    }
+    const d = await tmdb(`/${type}/${tmdbId}`, {
       append_to_response: "images,external_ids",
       include_image_language: "en,null",
     });
+    if (id.startsWith("tt") && (d.imdb_id || d.external_ids?.imdb_id) !== id)
+      return res.status(404).json({ error: "Title identity mismatch" });
     const backs = (d.images?.backdrops || [])
       .filter(
         (x) => x.width >= 1280 && x.aspect_ratio > 1.5 && x.aspect_ratio < 2.2,

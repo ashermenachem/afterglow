@@ -24,6 +24,8 @@ Turn your laptop or spare monitor into a window onto cinema. Afterglow moves thr
 - **Cinema, edge to edge.** High-resolution backdrops and transparent title artwork, with a clean text fallback.
 - **A little context.** Up to three genres and available TMDb, IMDb and Rotten Tomatoes critic scores.
 - **Your kind of evening.** Popular now, daily and weekly trending, top rated, or shuffle. Movies, TV, or both.
+- **IMDb Top 250 mode.** Movies #1–250, TV shows #1–250, or movie #1 → TV #1 → movie #2 → TV #2. Every rank stays in order and the complete sequence loops.
+- **Watch on TV.** A built-in AirPlay mirroring guide, with Chrome casting and HDMI alternatives.
 - **Room to linger.** Choose 12, 20 or 30 seconds per title. Pause, skip and enter fullscreen whenever you like.
 - **Made for the long view.** Upcoming artwork preloads, the feed keeps paging, and it cycles when it reaches the end.
 - **Thoughtful defaults.** Hidden idle controls, reduced-motion support, remembered preferences and a screen wake lock where supported.
@@ -109,7 +111,30 @@ On macOS, after adding your keys, you can also double-click **Launch Afterglow.c
 
 **React + TypeScript + Vite** render the screensaver. A small **Express** API keeps provider credentials off the client. On Vercel, the frontend is static and the API runs as a serverless function; the same app runs locally without a hosting account.
 
-TMDb supplies artwork, title logos, genres, rankings and ratings. Movies and TV are merged by popularity for **Popular now** or by rating for **Top rated**, which requires at least 300 votes. Trending follows TMDb's ranking; Shuffle randomizes each weekly-trending page. Titles are deduplicated and unsuitable or failed artwork is skipped.
+TMDb supplies artwork, title logos, genres, rankings and ratings. Movies and TV are merged by popularity for **Popular now** or by rating for **Top rated**, which requires at least 300 votes. Trending follows TMDb's ranking; Shuffle randomizes each weekly-trending page. Outside IMDb mode, titles are deduplicated and unsuitable or failed artwork is skipped.
+
+### IMDb Top 250
+
+Choose **Settings → Collection → IMDb Top 250**, then **Movies**, **TV shows**, or **Mix**. Selecting a chart starts at #1. Movies and TV each loop after 250 titles; Mix alternates movie #1, TV #1, movie #2, TV #2, through movie #250 and TV #250, then restarts at movie #1. Preferences are remembered; reloading starts at #1. Previous retraces the last 30 slides.
+
+Rankings come from a saved snapshot of the [IMDb movie chart](https://www.imdb.com/chart/top/) and [TV chart](https://www.imdb.com/chart/toptv/), obtained through the [crazyuploader chart archive](https://github.com/crazyuploader/IMDb-Top-50). The included archive files were updated September 12, 2026. **This is a dated third-party snapshot, not a live or independently verified IMDb feed.** Direct IMDb access was blocked during implementation. Settings links to each official chart and exact archive revision and shows its update date; current IMDb rankings may differ. An archive update timestamp does not guarantee the chart was freshly scraped, since upstream can preserve old data on failure.
+
+Only chart rank, IMDb ID and title are stored. Chart order is preserved rather than reconstructed from rounded IMDb ratings or TMDb's Top Rated list. TMDb artwork is matched by exact IMDb ID and media type, then checked against the returned external ID. Missing, ambiguous or failed artwork displays a text title card at that rank; it never removes or substitutes a chart entry. Slow loading holds the current slide instead of jumping backward. Each playback session pins its complete sequence so a new deployment cannot reorder an ongoing cycle.
+
+To refresh both snapshots atomically:
+
+```sh
+npm run refresh:imdb
+npm test
+```
+
+Review `data/imdb-top250.json`, source dates and upstream provenance before committing and deploying. The refresh validates 250 unique IMDb IDs and contiguous ranks per chart, and records immutable source URLs. It does not run on every visit or automatically claim live accuracy.
+
+### Watch on TV
+
+Click the **TV icon** in the playback controls for instructions. On a Mac, use **Control Center → Screen Mirroring → your TV/display**; both devices should be on the same Wi-Fi network. Choose mirroring, return to Afterglow, close the guide, then enter fullscreen. The guide pauses playback and supports Escape and keyboard focus containment.
+
+Browsers have no supported API to open Apple's native Screen Mirroring picker. This button opens a guide, not the system menu or an automatic TV connection. Chrome casting and HDMI are alternatives. See [Apple's AirPlay guide](https://support.apple.com/guide/mac-help/stream-video-and-audio-with-airplay-mchld7e543a0/mac).
 
 OMDb supplies IMDb and Rotten Tomatoes critic scores where available. Missing ratings are omitted rather than invented. A critic score of 60% or more uses the fresh tomato; lower scores use the splat. **Audience scores and certification badges are not included**: the available API does not reliably supply that information, and certification cannot be inferred from a percentage alone.
 

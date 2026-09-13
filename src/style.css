@@ -553,3 +553,54 @@ footer a {
     animation: none;
   }
 }
+
+.slide {
+  background: radial-gradient(ellipse at 65% 30%, #30463d, #08090b 75%);
+}
+.chart-rank {
+  display: inline-block;
+  color: #d6e5c3;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  margin-bottom: 18px;
+}
+.artwork-note {
+  color: #aeb9b3;
+  font-size: 12px;
+}
+.chart-info {
+  color: #9ba7a1;
+  font-size: 12px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+.chart-info a,
+.guide-link {
+  color: #d6e5c3;
+  text-underline-offset: 3px;
+}
+.mirror-dialog {
+  color: #fff;
+  width: 440px;
+  height: auto;
+  max-height: calc(100svh - 40px);
+  padding: 36px 30px;
+}
+.mirror-dialog::backdrop {
+  background: #0008;
+  backdrop-filter: blur(12px);
+}
+.mirror-steps {
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #c7d1cb;
+}
+.mirror-steps li {
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+.guide-link {
+  font-size: 13px;
+}

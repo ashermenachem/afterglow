@@ -9,7 +9,8 @@
     "start": "node local.mjs --production",
     "test": "node --test tests/*.test.mjs",
     "test:e2e": "playwright test",
-    "check:secrets": "node scripts/check-secrets.mjs"
+    "check:secrets": "node scripts/check-secrets.mjs",
+    "refresh:imdb": "node scripts/refresh-imdb.mjs"
   },
   "dependencies": {
     "dotenv": "^16.5.0",

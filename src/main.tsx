@@ -11,13 +11,15 @@ import {
   X,
   ArrowUpRight,
   Film,
+  Tv,
 } from "lucide-react";
 import "./style.css";
 type Title = {
-  id: number;
+  id: number | string;
   type: string;
   title: string;
-  backdrop: string;
+  backdrop: string | null;
+  rank?: number;
   logo: string | null;
   genres: string[];
   tmdb: number | null;
@@ -25,12 +27,24 @@ type Title = {
   critic: number | null;
 };
 type Prefs = { mode: string; type: string; duration: number };
+type Candidate = {
+  id: number | string;
+  type: string;
+  rank?: number;
+  title?: string;
+};
+type ChartSource = {
+  source: string;
+  archive: string;
+  archiveUpdatedAt: string;
+};
 const modes = [
   ["popular", "Popular now"],
   ["day", "Trending today"],
   ["week", "Trending this week"],
   ["rated", "Top rated"],
   ["shuffle", "Shuffle"],
+  ["imdb", "IMDb Top 250"],
 ];
 const defaults: Prefs = { mode: "popular", type: "all", duration: 12 };
 function readPrefs(): Prefs {
@@ -94,14 +108,32 @@ function Slide({
       aria-label={data.title}
       style={{ "--duration": `${duration + 3}s` } as React.CSSProperties}
     >
-      <img
-        className="backdrop"
-        src={data.backdrop}
-        alt=""
-        style={{ animationPlayState: paused ? "paused" : "running" }}
-      />
+      {data.backdrop && (
+        <img
+          className="backdrop"
+          src={data.backdrop}
+          alt=""
+          style={{ animationPlayState: paused ? "paused" : "running" }}
+        />
+      )}
       <div className="shade" />
       <div className="caption">
+        {data.rank && (
+          <a
+            className="chart-rank"
+            href={`https://www.imdb.com/title/${data.id}/`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            IMDb Top 250 · {data.type === "movie" ? "Movie" : "TV show"} #
+            {data.rank}
+          </a>
+        )}
+        {!data.backdrop && (
+          <p className="artwork-note">
+            Artwork unavailable · keeping your place in the chart
+          </p>
+        )}
         {data.logo ? (
           <img className="title-logo" src={data.logo} alt={data.title} />
         ) : (
@@ -167,6 +199,8 @@ function App() {
   const [previous, setPrevious] = useState<Title | null>(null);
   const [paused, setPaused] = useState(false);
   const [settings, setSettings] = useState(false);
+  const [mirroring, setMirroring] = useState(false);
+  const [charts, setCharts] = useState<Record<string, ChartSource>>({});
   const [awake, setAwake] = useState(true);
   const [error, setError] = useState("");
   const [retry, setRetry] = useState(0);
@@ -205,15 +239,21 @@ function App() {
     const abort = new AbortController();
     queue.current = [];
     history.current = [];
+    currentRef.current = null;
+    setCurrent(null);
+    setPrevious(null);
+    setError("");
+    clearTimeout(transition.current);
+    lock.current = false;
+    const ordered = prefs.mode === "imdb";
+    let orderedItems: Candidate[] | null = null;
     let cursor: string | null = null,
       started = false,
       busy = false;
     const seen = new Set<string>();
-    if (currentRef.current)
-      seen.add(currentRef.current.type + currentRef.current.id);
     let replace = true;
     // A buffered feed iterator preserves every candidate across refills.
-    let candidates: { id: number; type: string }[] = [];
+    let candidates: Candidate[] = [];
     const buffered = async () => {
       if (busy || abort.signal.aborted) return;
       busy = true;
@@ -230,23 +270,31 @@ function App() {
               if (currentRef.current)
                 seen.add(currentRef.current.type + currentRef.current.id);
             }
-            const feed = await json(
-              "/api/feed?" +
-                new URLSearchParams({
-                  mode: prefs.mode,
-                  type: prefs.type,
-                  ...(cursor ? { cursor } : {}),
-                }),
-              abort.signal,
-            );
+            const feed = orderedItems
+              ? { items: orderedItems, cursor: null }
+              : await json(
+                  "/api/feed?" +
+                    new URLSearchParams({
+                      mode: prefs.mode,
+                      type: prefs.type,
+                      ...(cursor ? { cursor } : {}),
+                    }),
+                  abort.signal,
+                );
+            if (abort.signal.aborted) return;
+            if (ordered && !orderedItems) {
+              if (!feed.items.length) throw Error("Chart unavailable");
+              orderedItems = feed.items;
+              setCharts(feed.charts || {});
+            }
             started = true;
             cursor = feed.cursor;
-            candidates = feed.items;
+            candidates = [...feed.items];
             if (!candidates.length) continue;
           }
           const item = candidates.shift()!;
           const key = item.type + item.id;
-          if (seen.has(key)) continue;
+          if (!ordered && seen.has(key)) continue;
           seen.add(key);
           if (seen.size > 12000) seen.clear();
           try {
@@ -254,7 +302,12 @@ function App() {
               `/api/title/${item.type}/${item.id}`,
               abort.signal,
             );
-            await preload(t.backdrop, abort.signal);
+            if (ordered) {
+              t.id = item.id;
+              t.rank = item.rank;
+              t.title = item.title || t.title;
+            }
+            if (t.backdrop) await preload(t.backdrop, abort.signal);
             if (t.logo)
               try {
                 await preload(t.logo, abort.signal);
@@ -268,6 +321,24 @@ function App() {
             } else queue.current.push(t);
           } catch {
             if (abort.signal.aborted) return;
+            if (ordered) {
+              const fallback: Title = {
+                id: item.id,
+                type: item.type,
+                rank: item.rank,
+                title: item.title || "Title unavailable",
+                backdrop: null,
+                logo: null,
+                genres: [],
+                tmdb: null,
+                imdb: null,
+                critic: null,
+              };
+              if (replace) {
+                replace = false;
+                show(fallback);
+              } else queue.current.push(fallback);
+            }
           }
         }
         if (!currentRef.current)
@@ -302,10 +373,6 @@ function App() {
         if (history.current.length > 30) history.current.shift();
       }
       show(t);
-    } else if (history.current.length) {
-      const t = history.current.shift()!;
-      if (currentRef.current) history.current.push(currentRef.current);
-      show(t);
     }
     void fillRef.current();
   };
@@ -318,10 +385,10 @@ function App() {
     }
   };
   useEffect(() => {
-    if (paused || settings || !current) return;
+    if (paused || settings || mirroring || !current) return;
     const timer = setInterval(next, prefs.duration * 1000);
     return () => clearInterval(timer);
-  }, [current, paused, settings, prefs.duration]);
+  }, [current, paused, settings, mirroring, prefs.duration]);
   const fullscreen = async () => {
     try {
       if (document.fullscreenElement) await document.exitFullscreen();
@@ -381,8 +448,10 @@ function App() {
       reveal();
       if (e.key === "Escape") {
         setSettings(false);
+        setMirroring(false);
         return;
       }
+      if (settings || mirroring) return;
       if ((e.target as HTMLElement).matches("select,input,textarea")) return;
       if (
         e.code === "Space" &&
@@ -403,8 +472,8 @@ function App() {
       onPointerMove={reveal}
       onPointerDown={reveal}
       className={
-        (awake || settings ? "" : "idle ") +
-        (paused || settings ? "paused" : "")
+        (awake || settings || mirroring ? "" : "idle ") +
+        (paused || settings || mirroring ? "paused" : "")
       }
     >
       {previous && (
@@ -420,7 +489,7 @@ function App() {
         <Slide
           key={current.type + current.id}
           data={current}
-          paused={paused || settings}
+          paused={paused || settings || mirroring}
           duration={prefs.duration}
         />
       )}
@@ -487,12 +556,25 @@ function App() {
         >
           {full ? <Minimize /> : <Maximize />}
         </button>
+        <button
+          onClick={() => setMirroring(true)}
+          aria-label="Watch on TV"
+          title="Watch on TV"
+        >
+          <Tv />
+        </button>
       </nav>
       {notice && (
         <div className="notice" role="status" onClick={() => setNotice("")}>
           {notice}
         </div>
       )}
+      {error && current && (
+        <div className="notice" role="status">
+          {error}
+        </div>
+      )}
+      {mirroring && <Mirroring close={() => setMirroring(false)} />}
       {settings && (
         <div className="scrim" onClick={() => setSettings(false)}>
           <Settings
@@ -500,6 +582,7 @@ function App() {
             setPrefs={setPrefs}
             close={() => setSettings(false)}
             error={error}
+            charts={charts}
           />
         </div>
       )}
@@ -511,11 +594,13 @@ function Settings({
   setPrefs,
   close,
   error,
+  charts,
 }: {
   prefs: Prefs;
   setPrefs: React.Dispatch<React.SetStateAction<Prefs>>;
   close: () => void;
   error: string;
+  charts: Record<string, ChartSource>;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -576,7 +661,7 @@ function Settings({
         On screen
         <div className="segmented">
           {[
-            ["all", "Everything"],
+            ["all", prefs.mode === "imdb" ? "Mix" : "Everything"],
             ["movie", "Movies"],
             ["tv", "TV shows"],
           ].map(([v, l]) => (
@@ -590,6 +675,45 @@ function Settings({
           ))}
         </div>
       </label>
+      {prefs.mode === "imdb" && (
+        <div className="chart-info">
+          <p>
+            {prefs.type === "all"
+              ? "Movie #1 → TV #1 → Movie #2 → TV #2, through both #250s. Then repeat."
+              : "From #1 to #250, in chart order. Then back to #1."}
+          </p>
+          <p>
+            Starts at #1 when you select a chart. Missing artwork never skips a
+            rank.
+          </p>
+          {Object.entries(charts)
+            .filter(([type]) => prefs.type === "all" || type === prefs.type)
+            .map(([type, chart]) => (
+              <p key={type}>
+                <a href={chart.source} target="_blank" rel="noreferrer">
+                  IMDb {type === "movie" ? "movie" : "TV"} chart
+                </a>
+                {" · "}
+                <a href={chart.archive} target="_blank" rel="noreferrer">
+                  Archive updated{" "}
+                  {new Date(chart.archiveUpdatedAt).toLocaleDateString(
+                    undefined,
+                    {
+                      month: "short",
+                      day: "numeric",
+                      year: "numeric",
+                      timeZone: "UTC",
+                    },
+                  )}
+                </a>
+              </p>
+            ))}
+          <p>
+            Saved chart snapshot via a third-party archive. Live IMDb rankings
+            may have changed.
+          </p>
+        </div>
+      )}
       <label>
         Time to linger
         <select
@@ -646,3 +770,65 @@ function Settings({
   );
 }
 createRoot(document.getElementById("root")!).render(<App />);
+
+function Mirroring({ close }: { close: () => void }) {
+  const ref = useRef<HTMLDialogElement>(null);
+  useEffect(() => {
+    const last = document.activeElement as HTMLElement;
+    ref.current?.showModal();
+    return () => last?.focus();
+  }, []);
+  return (
+    <dialog
+      ref={ref}
+      className="settings mirror-dialog"
+      aria-label="Watch on TV"
+      onCancel={close}
+      onClick={(e) => {
+        if (e.target === e.currentTarget) close();
+      }}
+    >
+      <div onClick={(e) => e.stopPropagation()}>
+        <button className="close" onClick={close} aria-label="Close TV guide">
+          <X size={20} />
+        </button>
+        <div className="eyebrow">
+          <Tv size={15} /> THE BIG SCREEN
+        </div>
+        <h2>Watch on TV.</h2>
+        <p className="intro">Mirror your screen with Apple AirPlay.</p>
+        <ol className="mirror-steps">
+          <li>Connect your Mac and AirPlay TV to the same Wi-Fi network.</li>
+          <li>
+            Click <strong>Control Center</strong> in your Mac’s menu bar, then{" "}
+            <strong>Screen Mirroring</strong>.
+          </li>
+          <li>
+            Choose your TV or display. Enter the code shown on your TV if asked,
+            and choose to mirror your screen.
+          </li>
+          <li>
+            Return here, close this guide and press <strong>F</strong> for
+            fullscreen.
+          </li>
+        </ol>
+        <p className="chart-info">
+          Your browser can’t directly open Apple’s Screen Mirroring menu. Use
+          the Mac menu bar to choose the display.
+        </p>
+        <p className="chart-info">
+          Using Chromecast? In Chrome, open the ⋮ menu → Cast, save, and share →
+          Cast. For any computer, an HDMI cable also works.
+        </p>
+        <a
+          className="guide-link"
+          href="https://support.apple.com/guide/mac-help/stream-video-and-audio-with-airplay-mchld7e543a0/mac"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Apple’s AirPlay guide ↗
+        </a>
+      </div>
+    </dialog>
+  );
+}

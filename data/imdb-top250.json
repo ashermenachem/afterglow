@@ -1,0 +1,2519 @@
+{
+  "retrievedAt": "2026-09-13T02:31:52.540Z",
+  "charts": {
+    "movie": {
+      "source": "https://www.imdb.com/chart/top/",
+      "archive": "https://github.com/crazyuploader/IMDb-Top-50/blob/a9103258f3f8adfda1b623bae1dfa60e8529cc04/data/top250/movies.json",
+      "archiveUpdatedAt": "2026-09-12T03:33:04Z",
+      "items": [
+        {
+          "rank": 1,
+          "id": "tt0111161",
+          "title": "The Shawshank Redemption"
+        },
+        {
+          "rank": 2,
+          "id": "tt0068646",
+          "title": "The Godfather"
+        },
+        {
+          "rank": 3,
+          "id": "tt0468569",
+          "title": "The Dark Knight"
+        },
+        {
+          "rank": 4,
+          "id": "tt0071562",
+          "title": "The Godfather Part II"
+        },
+        {
+          "rank": 5,
+          "id": "tt0167260",
+          "title": "The Lord of the Rings: The Return of the King"
+        },
+        {
+          "rank": 6,
+          "id": "tt0050083",
+          "title": "12 Angry Men"
+        },
+        {
+          "rank": 7,
+          "id": "tt0108052",
+          "title": "Schindler's List"
+        },
+        {
+          "rank": 8,
+          "id": "tt0120737",
+          "title": "The Lord of the Rings: The Fellowship of the Ring"
+        },
+        {
+          "rank": 9,
+          "id": "tt0110912",
+          "title": "Pulp Fiction"
+        },
+        {
+          "rank": 10,
+          "id": "tt0167261",
+          "title": "The Lord of the Rings: The Two Towers"
+        },
+        {
+          "rank": 11,
+          "id": "tt0060196",
+          "title": "Il buono, il brutto, il cattivo"
+        },
+        {
+          "rank": 12,
+          "id": "tt0109830",
+          "title": "Forrest Gump"
+        },
+        {
+          "rank": 13,
+          "id": "tt0137523",
+          "title": "Fight Club"
+        },
+        {
+          "rank": 14,
+          "id": "tt1375666",
+          "title": "Inception"
+        },
+        {
+          "rank": 15,
+          "id": "tt0080684",
+          "title": "Star Wars: Episode V - The Empire Strikes Back"
+        },
+        {
+          "rank": 16,
+          "id": "tt0133093",
+          "title": "The Matrix"
+        },
+        {
+          "rank": 17,
+          "id": "tt0816692",
+          "title": "Interstellar"
+        },
+        {
+          "rank": 18,
+          "id": "tt0099685",
+          "title": "GoodFellas"
+        },
+        {
+          "rank": 19,
+          "id": "tt0073486",
+          "title": "One Flew Over the Cuckoo's Nest"
+        },
+        {
+          "rank": 20,
+          "id": "tt0114369",
+          "title": "Se7en"
+        },
+        {
+          "rank": 21,
+          "id": "tt0038650",
+          "title": "It's a Wonderful Life"
+        },
+        {
+          "rank": 22,
+          "id": "tt0102926",
+          "title": "The Silence of the Lambs"
+        },
+        {
+          "rank": 23,
+          "id": "tt0120815",
+          "title": "Saving Private Ryan"
+        },
+        {
+          "rank": 24,
+          "id": "tt0047478",
+          "title": "Shichinin no samurai"
+        },
+        {
+          "rank": 25,
+          "id": "tt0120689",
+          "title": "The Green Mile"
+        },
+        {
+          "rank": 26,
+          "id": "tt0317248",
+          "title": "Cidade de Deus"
+        },
+        {
+          "rank": 27,
+          "id": "tt0118799",
+          "title": "La vita è bella"
+        },
+        {
+          "rank": 28,
+          "id": "tt0103064",
+          "title": "Terminator 2: Judgment Day"
+        },
+        {
+          "rank": 29,
+          "id": "tt0088763",
+          "title": "Back to the Future"
+        },
+        {
+          "rank": 30,
+          "id": "tt0076759",
+          "title": "Star Wars"
+        },
+        {
+          "rank": 31,
+          "id": "tt0245429",
+          "title": "Sen to Chihiro no kamikakushi"
+        },
+        {
+          "rank": 32,
+          "id": "tt6019206",
+          "title": "Kill Bill: The Whole Bloody Affair"
+        },
+        {
+          "rank": 33,
+          "id": "tt0172495",
+          "title": "Gladiator"
+        },
+        {
+          "rank": 34,
+          "id": "tt0253474",
+          "title": "The Pianist"
+        },
+        {
+          "rank": 35,
+          "id": "tt6751668",
+          "title": "Gisaengchung"
+        },
+        {
+          "rank": 36,
+          "id": "tt0095327",
+          "title": "Hotaru no haka"
+        },
+        {
+          "rank": 37,
+          "id": "tt0056058",
+          "title": "Seppuku"
+        },
+        {
+          "rank": 38,
+          "id": "tt0054215",
+          "title": "Psycho"
+        },
+        {
+          "rank": 39,
+          "id": "tt0110357",
+          "title": "The Lion King"
+        },
+        {
+          "rank": 40,
+          "id": "tt0407887",
+          "title": "The Departed"
+        },
+        {
+          "rank": 41,
+          "id": "tt2582802",
+          "title": "Whiplash"
+        },
+        {
+          "rank": 42,
+          "id": "tt0482571",
+          "title": "The Prestige"
+        },
+        {
+          "rank": 43,
+          "id": "tt0120586",
+          "title": "American History X"
+        },
+        {
+          "rank": 44,
+          "id": "tt9362722",
+          "title": "Spider-Man: Across the Spider-Verse"
+        },
+        {
+          "rank": 45,
+          "id": "tt0110413",
+          "title": "Léon"
+        },
+        {
+          "rank": 46,
+          "id": "tt0095765",
+          "title": "Nuovo Cinema Paradiso"
+        },
+        {
+          "rank": 47,
+          "id": "tt0034583",
+          "title": "Casablanca"
+        },
+        {
+          "rank": 48,
+          "id": "tt1675434",
+          "title": "Intouchables"
+        },
+        {
+          "rank": 49,
+          "id": "tt0114814",
+          "title": "The Usual Suspects"
+        },
+        {
+          "rank": 50,
+          "id": "tt1853728",
+          "title": "Django Unchained"
+        },
+        {
+          "rank": 51,
+          "id": "tt0078748",
+          "title": "Alien"
+        },
+        {
+          "rank": 52,
+          "id": "tt0047396",
+          "title": "Rear Window"
+        },
+        {
+          "rank": 53,
+          "id": "tt0027977",
+          "title": "Modern Times"
+        },
+        {
+          "rank": 54,
+          "id": "tt0064116",
+          "title": "C'era una volta il West"
+        },
+        {
+          "rank": 55,
+          "id": "tt0021749",
+          "title": "City Lights"
+        },
+        {
+          "rank": 56,
+          "id": "tt0910970",
+          "title": "WALL·E"
+        },
+        {
+          "rank": 57,
+          "id": "tt0078788",
+          "title": "Apocalypse Now"
+        },
+        {
+          "rank": 58,
+          "id": "tt0209144",
+          "title": "Memento"
+        },
+        {
+          "rank": 59,
+          "id": "tt4154756",
+          "title": "Avengers: Infinity War"
+        },
+        {
+          "rank": 60,
+          "id": "tt33764258",
+          "title": "The Odyssey"
+        },
+        {
+          "rank": 61,
+          "id": "tt15239678",
+          "title": "Dune: Part Two"
+        },
+        {
+          "rank": 62,
+          "id": "tt0082971",
+          "title": "Raiders of the Lost Ark"
+        },
+        {
+          "rank": 63,
+          "id": "tt4633694",
+          "title": "Spider-Man: Into the Spider-Verse"
+        },
+        {
+          "rank": 64,
+          "id": "tt0405094",
+          "title": "Das Leben der Anderen"
+        },
+        {
+          "rank": 65,
+          "id": "tt0043014",
+          "title": "Sunset Blvd."
+        },
+        {
+          "rank": 66,
+          "id": "tt0051201",
+          "title": "Witness for the Prosecution"
+        },
+        {
+          "rank": 67,
+          "id": "tt0050825",
+          "title": "Paths of Glory"
+        },
+        {
+          "rank": 68,
+          "id": "tt0361748",
+          "title": "Inglourious Basterds"
+        },
+        {
+          "rank": 69,
+          "id": "tt0081505",
+          "title": "The Shining"
+        },
+        {
+          "rank": 70,
+          "id": "tt0032553",
+          "title": "The Great Dictator"
+        },
+        {
+          "rank": 71,
+          "id": "tt0090605",
+          "title": "Aliens"
+        },
+        {
+          "rank": 72,
+          "id": "tt23849204",
+          "title": "12th Fail"
+        },
+        {
+          "rank": 73,
+          "id": "tt0057565",
+          "title": "Tengoku to jigoku"
+        },
+        {
+          "rank": 74,
+          "id": "tt4154796",
+          "title": "Avengers: Endgame"
+        },
+        {
+          "rank": 75,
+          "id": "tt0119217",
+          "title": "Good Will Hunting"
+        },
+        {
+          "rank": 76,
+          "id": "tt2380307",
+          "title": "Coco"
+        },
+        {
+          "rank": 77,
+          "id": "tt0114709",
+          "title": "Toy Story"
+        },
+        {
+          "rank": 78,
+          "id": "tt1345836",
+          "title": "The Dark Knight Rises"
+        },
+        {
+          "rank": 79,
+          "id": "tt0086879",
+          "title": "Amadeus"
+        },
+        {
+          "rank": 80,
+          "id": "tt5311514",
+          "title": "Kimi no na wa."
+        },
+        {
+          "rank": 81,
+          "id": "tt1187043",
+          "title": "3 Idiots"
+        },
+        {
+          "rank": 82,
+          "id": "tt0082096",
+          "title": "Das Boot"
+        },
+        {
+          "rank": 83,
+          "id": "tt0112573",
+          "title": "Braveheart"
+        },
+        {
+          "rank": 84,
+          "id": "tt0119698",
+          "title": "Mononoke-hime"
+        },
+        {
+          "rank": 85,
+          "id": "tt0364569",
+          "title": "Oldeuboi"
+        },
+        {
+          "rank": 86,
+          "id": "tt0057012",
+          "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+        },
+        {
+          "rank": 87,
+          "id": "tt0169547",
+          "title": "American Beauty"
+        },
+        {
+          "rank": 88,
+          "id": "tt8267604",
+          "title": "Capharnaüm"
+        },
+        {
+          "rank": 89,
+          "id": "tt0045152",
+          "title": "Singin' in the Rain"
+        },
+        {
+          "rank": 90,
+          "id": "tt0087843",
+          "title": "C'era una volta in America"
+        },
+        {
+          "rank": 91,
+          "id": "tt7286456",
+          "title": "Joker"
+        },
+        {
+          "rank": 92,
+          "id": "tt0435761",
+          "title": "Toy Story 3"
+        },
+        {
+          "rank": 93,
+          "id": "tt0086190",
+          "title": "Star Wars: Episode VI - Return of the Jedi"
+        },
+        {
+          "rank": 94,
+          "id": "tt0091251",
+          "title": "Idi i smotri"
+        },
+        {
+          "rank": 95,
+          "id": "tt0180093",
+          "title": "Requiem for a Dream"
+        },
+        {
+          "rank": 96,
+          "id": "tt1255953",
+          "title": "Incendies"
+        },
+        {
+          "rank": 97,
+          "id": "tt0044741",
+          "title": "Ikiru"
+        },
+        {
+          "rank": 98,
+          "id": "tt33175825",
+          "title": "Shingeki no Kyojin: The Last Attack"
+        },
+        {
+          "rank": 99,
+          "id": "tt2106476",
+          "title": "Jagten"
+        },
+        {
+          "rank": 100,
+          "id": "tt0338013",
+          "title": "Eternal Sunshine of the Spotless Mind"
+        },
+        {
+          "rank": 101,
+          "id": "tt0053604",
+          "title": "The Apartment"
+        },
+        {
+          "rank": 102,
+          "id": "tt0056172",
+          "title": "Lawrence of Arabia"
+        },
+        {
+          "rank": 103,
+          "id": "tt0113277",
+          "title": "Heat"
+        },
+        {
+          "rank": 104,
+          "id": "tt0086250",
+          "title": "Scarface"
+        },
+        {
+          "rank": 105,
+          "id": "tt0105236",
+          "title": "Reservoir Dogs"
+        },
+        {
+          "rank": 106,
+          "id": "tt1049413",
+          "title": "Up"
+        },
+        {
+          "rank": 107,
+          "id": "tt0062622",
+          "title": "2001: A Space Odyssey"
+        },
+        {
+          "rank": 108,
+          "id": "tt0036775",
+          "title": "Double Indemnity"
+        },
+        {
+          "rank": 109,
+          "id": "tt0986264",
+          "title": "Taare Zameen Par"
+        },
+        {
+          "rank": 110,
+          "id": "tt0053125",
+          "title": "North by Northwest"
+        },
+        {
+          "rank": 111,
+          "id": "tt31514146",
+          "title": "I Swear"
+        },
+        {
+          "rank": 112,
+          "id": "tt0093058",
+          "title": "Full Metal Jacket"
+        },
+        {
+          "rank": 113,
+          "id": "tt1832382",
+          "title": "Jodaeiye Nader az Simin"
+        },
+        {
+          "rank": 114,
+          "id": "tt0022100",
+          "title": "M - Eine Stadt sucht einen Mörder"
+        },
+        {
+          "rank": 115,
+          "id": "tt0095016",
+          "title": "Die Hard"
+        },
+        {
+          "rank": 116,
+          "id": "tt0211915",
+          "title": "Le fabuleux destin d'Amélie Poulain"
+        },
+        {
+          "rank": 117,
+          "id": "tt0052357",
+          "title": "Vertigo"
+        },
+        {
+          "rank": 118,
+          "id": "tt0056592",
+          "title": "To Kill a Mockingbird"
+        },
+        {
+          "rank": 119,
+          "id": "tt0033467",
+          "title": "Citizen Kane"
+        },
+        {
+          "rank": 120,
+          "id": "tt0097576",
+          "title": "Indiana Jones and the Last Crusade"
+        },
+        {
+          "rank": 121,
+          "id": "tt0070735",
+          "title": "The Sting"
+        },
+        {
+          "rank": 122,
+          "id": "tt0066921",
+          "title": "A Clockwork Orange"
+        },
+        {
+          "rank": 123,
+          "id": "tt0017136",
+          "title": "Metropolis"
+        },
+        {
+          "rank": 124,
+          "id": "tt8579674",
+          "title": "1917"
+        },
+        {
+          "rank": 125,
+          "id": "tt0993846",
+          "title": "The Wolf of Wall Street"
+        },
+        {
+          "rank": 126,
+          "id": "tt0208092",
+          "title": "Snatch"
+        },
+        {
+          "rank": 127,
+          "id": "tt0120382",
+          "title": "The Truman Show"
+        },
+        {
+          "rank": 128,
+          "id": "tt0363163",
+          "title": "Der Untergang"
+        },
+        {
+          "rank": 129,
+          "id": "tt1130884",
+          "title": "Shutter Island"
+        },
+        {
+          "rank": 130,
+          "id": "tt0119488",
+          "title": "L.A. Confidential"
+        },
+        {
+          "rank": 131,
+          "id": "tt0058625",
+          "title": "Suna no onna"
+        },
+        {
+          "rank": 132,
+          "id": "tt5074352",
+          "title": "Dangal"
+        },
+        {
+          "rank": 133,
+          "id": "tt6966692",
+          "title": "Green Book"
+        },
+        {
+          "rank": 134,
+          "id": "tt0040522",
+          "title": "Ladri di biciclette"
+        },
+        {
+          "rank": 135,
+          "id": "tt0055031",
+          "title": "Judgment at Nuremberg"
+        },
+        {
+          "rank": 136,
+          "id": "tt0107290",
+          "title": "Jurassic Park"
+        },
+        {
+          "rank": 137,
+          "id": "tt0372784",
+          "title": "Batman Begins"
+        },
+        {
+          "rank": 138,
+          "id": "tt15398776",
+          "title": "Oppenheimer"
+        },
+        {
+          "rank": 139,
+          "id": "tt0059578",
+          "title": "Per qualche dollaro in più"
+        },
+        {
+          "rank": 140,
+          "id": "tt8503618",
+          "title": "Hamilton"
+        },
+        {
+          "rank": 141,
+          "id": "tt0469494",
+          "title": "There Will Be Blood"
+        },
+        {
+          "rank": 142,
+          "id": "tt0053291",
+          "title": "Some Like It Hot"
+        },
+        {
+          "rank": 143,
+          "id": "tt0075314",
+          "title": "Taxi Driver"
+        },
+        {
+          "rank": 144,
+          "id": "tt10272386",
+          "title": "The Father"
+        },
+        {
+          "rank": 145,
+          "id": "tt0012349",
+          "title": "The Kid"
+        },
+        {
+          "rank": 146,
+          "id": "tt0167404",
+          "title": "The Sixth Sense"
+        },
+        {
+          "rank": 147,
+          "id": "tt0042192",
+          "title": "All About Eve"
+        },
+        {
+          "rank": 148,
+          "id": "tt0089881",
+          "title": "Ran"
+        },
+        {
+          "rank": 149,
+          "id": "tt0112641",
+          "title": "Casino"
+        },
+        {
+          "rank": 150,
+          "id": "tt0084787",
+          "title": "The Thing"
+        },
+        {
+          "rank": 151,
+          "id": "tt0477348",
+          "title": "No Country for Old Men"
+        },
+        {
+          "rank": 152,
+          "id": "tt1392214",
+          "title": "Prisoners"
+        },
+        {
+          "rank": 153,
+          "id": "tt1745960",
+          "title": "Top Gun: Maverick"
+        },
+        {
+          "rank": 154,
+          "id": "tt0266697",
+          "title": "Kill Bill: Vol. 1"
+        },
+        {
+          "rank": 155,
+          "id": "tt0457430",
+          "title": "El laberinto del fauno"
+        },
+        {
+          "rank": 156,
+          "id": "tt0105695",
+          "title": "Unforgiven"
+        },
+        {
+          "rank": 157,
+          "id": "tt0268978",
+          "title": "A Beautiful Mind"
+        },
+        {
+          "rank": 158,
+          "id": "tt0347149",
+          "title": "Hauru no ugoku shiro"
+        },
+        {
+          "rank": 159,
+          "id": "tt12042730",
+          "title": "Project Hail Mary"
+        },
+        {
+          "rank": 160,
+          "id": "tt32820897",
+          "title": "Gekijô-ban Kimetsu no Yaiba Mugen Jô-hen"
+        },
+        {
+          "rank": 161,
+          "id": "tt0040897",
+          "title": "The Treasure of the Sierra Madre"
+        },
+        {
+          "rank": 162,
+          "id": "tt0266543",
+          "title": "Finding Nemo"
+        },
+        {
+          "rank": 163,
+          "id": "tt4729430",
+          "title": "Klaus"
+        },
+        {
+          "rank": 164,
+          "id": "tt0055630",
+          "title": "Yôjinbô"
+        },
+        {
+          "rank": 165,
+          "id": "tt0080678",
+          "title": "The Elephant Man"
+        },
+        {
+          "rank": 166,
+          "id": "tt0057115",
+          "title": "The Great Escape"
+        },
+        {
+          "rank": 167,
+          "id": "tt0071853",
+          "title": "Monty Python and the Holy Grail"
+        },
+        {
+          "rank": 168,
+          "id": "tt0046912",
+          "title": "Dial M for Murder"
+        },
+        {
+          "rank": 169,
+          "id": "tt1305806",
+          "title": "El secreto de sus ojos"
+        },
+        {
+          "rank": 170,
+          "id": "tt0031381",
+          "title": "Gone with the Wind"
+        },
+        {
+          "rank": 171,
+          "id": "tt0120735",
+          "title": "Lock, Stock and Two Smoking Barrels"
+        },
+        {
+          "rank": 172,
+          "id": "tt0071315",
+          "title": "Chinatown"
+        },
+        {
+          "rank": 173,
+          "id": "tt0264464",
+          "title": "Catch Me If You Can"
+        },
+        {
+          "rank": 174,
+          "id": "tt0434409",
+          "title": "V for Vendetta"
+        },
+        {
+          "rank": 175,
+          "id": "tt0346336",
+          "title": "La meglio gioventù"
+        },
+        {
+          "rank": 176,
+          "id": "tt0097165",
+          "title": "Dead Poets Society"
+        },
+        {
+          "rank": 177,
+          "id": "tt2096673",
+          "title": "Inside Out"
+        },
+        {
+          "rank": 178,
+          "id": "tt0117951",
+          "title": "Trainspotting"
+        },
+        {
+          "rank": 179,
+          "id": "tt1201607",
+          "title": "Harry Potter and the Deathly Hallows: Part 2"
+        },
+        {
+          "rank": 180,
+          "id": "tt5027774",
+          "title": "Three Billboards Outside Ebbing, Missouri"
+        },
+        {
+          "rank": 181,
+          "id": "tt0050212",
+          "title": "The Bridge on the River Kwai"
+        },
+        {
+          "rank": 182,
+          "id": "tt0042876",
+          "title": "Rashômon"
+        },
+        {
+          "rank": 183,
+          "id": "tt0072684",
+          "title": "Barry Lyndon"
+        },
+        {
+          "rank": 184,
+          "id": "tt0052618",
+          "title": "Ben-Hur"
+        },
+        {
+          "rank": 185,
+          "id": "tt29623480",
+          "title": "The Wild Robot"
+        },
+        {
+          "rank": 186,
+          "id": "tt1291584",
+          "title": "Warrior"
+        },
+        {
+          "rank": 187,
+          "id": "tt2119532",
+          "title": "Hacksaw Ridge"
+        },
+        {
+          "rank": 188,
+          "id": "tt0116282",
+          "title": "Fargo"
+        },
+        {
+          "rank": 189,
+          "id": "tt1392190",
+          "title": "Mad Max: Fury Road"
+        },
+        {
+          "rank": 190,
+          "id": "tt0382932",
+          "title": "Ratatouille"
+        },
+        {
+          "rank": 191,
+          "id": "tt0405159",
+          "title": "Million Dollar Baby"
+        },
+        {
+          "rank": 192,
+          "id": "tt0118849",
+          "title": "Bacheha-ye aseman"
+        },
+        {
+          "rank": 193,
+          "id": "tt0096283",
+          "title": "Tonari no Totoro"
+        },
+        {
+          "rank": 194,
+          "id": "tt1205489",
+          "title": "Gran Torino"
+        },
+        {
+          "rank": 195,
+          "id": "tt0081398",
+          "title": "Raging Bull"
+        },
+        {
+          "rank": 196,
+          "id": "tt2024544",
+          "title": "12 Years a Slave"
+        },
+        {
+          "rank": 197,
+          "id": "tt0892769",
+          "title": "How to Train Your Dragon"
+        },
+        {
+          "rank": 198,
+          "id": "tt0353969",
+          "title": "Salinui chueok"
+        },
+        {
+          "rank": 199,
+          "id": "tt2278388",
+          "title": "The Grand Budapest Hotel"
+        },
+        {
+          "rank": 200,
+          "id": "tt0112471",
+          "title": "Before Sunrise"
+        },
+        {
+          "rank": 201,
+          "id": "tt0198781",
+          "title": "Monsters, Inc."
+        },
+        {
+          "rank": 202,
+          "id": "tt0083658",
+          "title": "Blade Runner"
+        },
+        {
+          "rank": 203,
+          "id": "tt2267998",
+          "title": "Gone Girl"
+        },
+        {
+          "rank": 204,
+          "id": "tt1950186",
+          "title": "Ford v Ferrari"
+        },
+        {
+          "rank": 205,
+          "id": "tt0073195",
+          "title": "Jaws"
+        },
+        {
+          "rank": 206,
+          "id": "tt0107207",
+          "title": "In the Name of the Father"
+        },
+        {
+          "rank": 207,
+          "id": "tt10872600",
+          "title": "Spider-Man: No Way Home"
+        },
+        {
+          "rank": 208,
+          "id": "tt30472557",
+          "title": "Gekijô-ban Chensô Man Reze-hen"
+        },
+        {
+          "rank": 209,
+          "id": "tt3011894",
+          "title": "Relatos salvajes"
+        },
+        {
+          "rank": 210,
+          "id": "tt0015864",
+          "title": "The Gold Rush"
+        },
+        {
+          "rank": 211,
+          "id": "tt0015324",
+          "title": "Sherlock Jr."
+        },
+        {
+          "rank": 212,
+          "id": "tt5323662",
+          "title": "Koe no katachi"
+        },
+        {
+          "rank": 213,
+          "id": "tt0978762",
+          "title": "Mary and Max."
+        },
+        {
+          "rank": 214,
+          "id": "tt0077416",
+          "title": "The Deer Hunter"
+        },
+        {
+          "rank": 215,
+          "id": "tt0046268",
+          "title": "Le salaire de la peur"
+        },
+        {
+          "rank": 216,
+          "id": "tt3315342",
+          "title": "Logan"
+        },
+        {
+          "rank": 217,
+          "id": "tt0075148",
+          "title": "Rocky"
+        },
+        {
+          "rank": 218,
+          "id": "tt0325980",
+          "title": "Pirates of the Caribbean: The Curse of the Black Pearl"
+        },
+        {
+          "rank": 219,
+          "id": "tt0017925",
+          "title": "The General"
+        },
+        {
+          "rank": 220,
+          "id": "tt0031679",
+          "title": "Mr. Smith Goes to Washington"
+        },
+        {
+          "rank": 221,
+          "id": "tt0046438",
+          "title": "Tôkyô monogatari"
+        },
+        {
+          "rank": 222,
+          "id": "tt15097216",
+          "title": "Jai Bhim"
+        },
+        {
+          "rank": 223,
+          "id": "tt0113247",
+          "title": "La haine"
+        },
+        {
+          "rank": 224,
+          "id": "tt1895587",
+          "title": "Spotlight"
+        },
+        {
+          "rank": 225,
+          "id": "tt26548265",
+          "title": "Maharaja"
+        },
+        {
+          "rank": 226,
+          "id": "tt0059742",
+          "title": "The Sound of Music"
+        },
+        {
+          "rank": 227,
+          "id": "tt0088247",
+          "title": "The Terminator"
+        },
+        {
+          "rank": 228,
+          "id": "tt0050986",
+          "title": "Smultronstället"
+        },
+        {
+          "rank": 229,
+          "id": "tt0047296",
+          "title": "On the Waterfront"
+        },
+        {
+          "rank": 230,
+          "id": "tt0036868",
+          "title": "The Best Years of Our Lives"
+        },
+        {
+          "rank": 231,
+          "id": "tt0041959",
+          "title": "The Third Man"
+        },
+        {
+          "rank": 232,
+          "id": "tt0118715",
+          "title": "The Big Lebowski"
+        },
+        {
+          "rank": 233,
+          "id": "tt0317705",
+          "title": "The Incredibles"
+        },
+        {
+          "rank": 234,
+          "id": "tt0381681",
+          "title": "Before Sunset"
+        },
+        {
+          "rank": 235,
+          "id": "tt1028532",
+          "title": "Hachi: A Dog's Tale"
+        },
+        {
+          "rank": 236,
+          "id": "tt0252488",
+          "title": "Hababam Sinifi: Sinifta Kaldi"
+        },
+        {
+          "rank": 237,
+          "id": "tt3170832",
+          "title": "Room"
+        },
+        {
+          "rank": 238,
+          "id": "tt0070047",
+          "title": "The Exorcist"
+        },
+        {
+          "rank": 239,
+          "id": "tt0395169",
+          "title": "Hotel Rwanda"
+        },
+        {
+          "rank": 240,
+          "id": "tt0129167",
+          "title": "The Iron Giant"
+        },
+        {
+          "rank": 241,
+          "id": "tt0050976",
+          "title": "Det sjunde inseglet"
+        },
+        {
+          "rank": 242,
+          "id": "tt0091763",
+          "title": "Platoon"
+        },
+        {
+          "rank": 243,
+          "id": "tt1979320",
+          "title": "Rush"
+        },
+        {
+          "rank": 244,
+          "id": "tt0092005",
+          "title": "Stand by Me"
+        },
+        {
+          "rank": 245,
+          "id": "tt0032138",
+          "title": "The Wizard of Oz"
+        },
+        {
+          "rank": 246,
+          "id": "tt0058946",
+          "title": "La battaglia di Algeri"
+        },
+        {
+          "rank": 247,
+          "id": "tt0476735",
+          "title": "Babam ve Oglum"
+        },
+        {
+          "rank": 248,
+          "id": "tt0019254",
+          "title": "La passion de Jeanne d'Arc"
+        },
+        {
+          "rank": 249,
+          "id": "tt0077711",
+          "title": "Höstsonaten"
+        },
+        {
+          "rank": 250,
+          "id": "tt3417422",
+          "title": "Drishyam"
+        }
+      ]
+    },
+    "tv": {
+      "source": "https://www.imdb.com/chart/toptv/",
+      "archive": "https://github.com/crazyuploader/IMDb-Top-50/blob/a9103258f3f8adfda1b623bae1dfa60e8529cc04/data/top250/shows.json",
+      "archiveUpdatedAt": "2026-09-12T03:33:04Z",
+      "items": [
+        {
+          "rank": 1,
+          "id": "tt0903747",
+          "title": "Breaking Bad"
+        },
+        {
+          "rank": 2,
+          "id": "tt5491994",
+          "title": "Planet Earth II"
+        },
+        {
+          "rank": 3,
+          "id": "tt0795176",
+          "title": "Planet Earth"
+        },
+        {
+          "rank": 4,
+          "id": "tt0185906",
+          "title": "Band of Brothers"
+        },
+        {
+          "rank": 5,
+          "id": "tt7366338",
+          "title": "Chernobyl"
+        },
+        {
+          "rank": 6,
+          "id": "tt0417299",
+          "title": "Avatar: The Last Airbender"
+        },
+        {
+          "rank": 7,
+          "id": "tt0306414",
+          "title": "The Wire"
+        },
+        {
+          "rank": 8,
+          "id": "tt0141842",
+          "title": "The Sopranos"
+        },
+        {
+          "rank": 9,
+          "id": "tt6769208",
+          "title": "Blue Planet II"
+        },
+        {
+          "rank": 10,
+          "id": "tt2395695",
+          "title": "Cosmos: A Spacetime Odyssey"
+        },
+        {
+          "rank": 11,
+          "id": "tt0081846",
+          "title": "Cosmos"
+        },
+        {
+          "rank": 12,
+          "id": "tt9253866",
+          "title": "Our Planet"
+        },
+        {
+          "rank": 13,
+          "id": "tt0944947",
+          "title": "Game of Thrones"
+        },
+        {
+          "rank": 14,
+          "id": "tt7678620",
+          "title": "Bluey"
+        },
+        {
+          "rank": 15,
+          "id": "tt0071075",
+          "title": "The World at War"
+        },
+        {
+          "rank": 16,
+          "id": "tt2560140",
+          "title": "Shingeki no kyojin"
+        },
+        {
+          "rank": 17,
+          "id": "tt1355642",
+          "title": "Hagane no renkinjutsushi"
+        },
+        {
+          "rank": 18,
+          "id": "tt1533395",
+          "title": "Life"
+        },
+        {
+          "rank": 19,
+          "id": "tt8420184",
+          "title": "The Last Dance"
+        },
+        {
+          "rank": 20,
+          "id": "tt0052520",
+          "title": "The Twilight Zone"
+        },
+        {
+          "rank": 21,
+          "id": "tt1877514",
+          "title": "The Vietnam War"
+        },
+        {
+          "rank": 22,
+          "id": "tt2861424",
+          "title": "Rick and Morty"
+        },
+        {
+          "rank": 23,
+          "id": "tt1475582",
+          "title": "Sherlock"
+        },
+        {
+          "rank": 24,
+          "id": "tt0103359",
+          "title": "Batman: The Animated Series"
+        },
+        {
+          "rank": 25,
+          "id": "tt3032476",
+          "title": "Better Call Saul"
+        },
+        {
+          "rank": 26,
+          "id": "tt0386676",
+          "title": "The Office"
+        },
+        {
+          "rank": 27,
+          "id": "tt11126994",
+          "title": "Arcane: League of Legends"
+        },
+        {
+          "rank": 28,
+          "id": "tt10541088",
+          "title": "Clarkson's Farm"
+        },
+        {
+          "rank": 29,
+          "id": "tt0296310",
+          "title": "The Blue Planet"
+        },
+        {
+          "rank": 30,
+          "id": "tt2098220",
+          "title": "Hunter x Hunter"
+        },
+        {
+          "rank": 31,
+          "id": "tt12392504",
+          "title": "Scam 1992: The Harshad Mehta Story"
+        },
+        {
+          "rank": 32,
+          "id": "tt2092588",
+          "title": "Frozen Planet"
+        },
+        {
+          "rank": 33,
+          "id": "tt0081912",
+          "title": "Only Fools and Horses"
+        },
+        {
+          "rank": 34,
+          "id": "tt1806234",
+          "title": "Human Planet"
+        },
+        {
+          "rank": 35,
+          "id": "tt0111893",
+          "title": "The Beatles Anthology"
+        },
+        {
+          "rank": 36,
+          "id": "tt33043892",
+          "title": "Dexter: Resurrection"
+        },
+        {
+          "rank": 37,
+          "id": "tt0098769",
+          "title": "The Civil War"
+        },
+        {
+          "rank": 38,
+          "id": "tt13675832",
+          "title": "Gibi"
+        },
+        {
+          "rank": 39,
+          "id": "tt0303461",
+          "title": "Firefly"
+        },
+        {
+          "rank": 40,
+          "id": "tt31938062",
+          "title": "The Pitt"
+        },
+        {
+          "rank": 41,
+          "id": "tt1865718",
+          "title": "Gravity Falls"
+        },
+        {
+          "rank": 42,
+          "id": "tt0877057",
+          "title": "Death Note: Desu nôto"
+        },
+        {
+          "rank": 43,
+          "id": "tt4934214",
+          "title": "Taskmaster"
+        },
+        {
+          "rank": 44,
+          "id": "tt22248376",
+          "title": "Sôsô no Furîren"
+        },
+        {
+          "rank": 45,
+          "id": "tt0092337",
+          "title": "Dekalog"
+        },
+        {
+          "rank": 46,
+          "id": "tt9735318",
+          "title": "The Beatles: Get Back"
+        },
+        {
+          "rank": 47,
+          "id": "tt0098904",
+          "title": "Seinfeld"
+        },
+        {
+          "rank": 48,
+          "id": "tt0213338",
+          "title": "Kaubôi bibappu"
+        },
+        {
+          "rank": 49,
+          "id": "tt2356777",
+          "title": "True Detective"
+        },
+        {
+          "rank": 50,
+          "id": "tt2297757",
+          "title": "Nathan for You"
+        },
+        {
+          "rank": 51,
+          "id": "tt1508238",
+          "title": "Apocalypse: La 2ème guerre mondiale"
+        },
+        {
+          "rank": 52,
+          "id": "tt2802850",
+          "title": "Fargo"
+        },
+        {
+          "rank": 53,
+          "id": "tt7920978",
+          "title": "Sahsiyet"
+        },
+        {
+          "rank": 54,
+          "id": "tt0388629",
+          "title": "One Piece: Wan pîsu"
+        },
+        {
+          "rank": 55,
+          "id": "tt2571774",
+          "title": "Africa"
+        },
+        {
+          "rank": 56,
+          "id": "tt5622316",
+          "title": "The Chosen"
+        },
+        {
+          "rank": 57,
+          "id": "tt14986406",
+          "title": "Bleach: Sennen Kessen-hen"
+        },
+        {
+          "rank": 58,
+          "id": "tt0200276",
+          "title": "The West Wing"
+        },
+        {
+          "rank": 59,
+          "id": "tt0108778",
+          "title": "Friends"
+        },
+        {
+          "rank": 60,
+          "id": "tt7137906",
+          "title": "When They See Us"
+        },
+        {
+          "rank": 61,
+          "id": "tt26471411",
+          "title": "Pokssak sogatsuda"
+        },
+        {
+          "rank": 62,
+          "id": "tt0472954",
+          "title": "It's Always Sunny in Philadelphia"
+        },
+        {
+          "rank": 63,
+          "id": "tt4742876",
+          "title": "TVF Pitchers"
+        },
+        {
+          "rank": 64,
+          "id": "tt3530232",
+          "title": "Last Week Tonight with John Oliver"
+        },
+        {
+          "rank": 65,
+          "id": "tt7660850",
+          "title": "Succession"
+        },
+        {
+          "rank": 66,
+          "id": "tt10233448",
+          "title": "Vinland Saga"
+        },
+        {
+          "rank": 67,
+          "id": "tt3398228",
+          "title": "BoJack Horseman"
+        },
+        {
+          "rank": 68,
+          "id": "tt0264235",
+          "title": "Curb Your Enthusiasm"
+        },
+        {
+          "rank": 69,
+          "id": "tt12004706",
+          "title": "Panchayat"
+        },
+        {
+          "rank": 70,
+          "id": "tt0081834",
+          "title": "Das Boot"
+        },
+        {
+          "rank": 71,
+          "id": "tt0063929",
+          "title": "Monty Python's Flying Circus"
+        },
+        {
+          "rank": 72,
+          "id": "tt0072500",
+          "title": "Fawlty Towers"
+        },
+        {
+          "rank": 73,
+          "id": "tt10530900",
+          "title": "Gullak"
+        },
+        {
+          "rank": 74,
+          "id": "tt0214341",
+          "title": "Dragon Ball Z"
+        },
+        {
+          "rank": 75,
+          "id": "tt0096548",
+          "title": "Blackadder Goes Forth"
+        },
+        {
+          "rank": 76,
+          "id": "tt0121220",
+          "title": "Dragon Ball Z: Doragon bôru zetto"
+        },
+        {
+          "rank": 77,
+          "id": "tt1831164",
+          "title": "Leyla ile Mecnun"
+        },
+        {
+          "rank": 78,
+          "id": "tt0353049",
+          "title": "Chappelle's Show"
+        },
+        {
+          "rank": 79,
+          "id": "tt0193676",
+          "title": "Freaks and Geeks"
+        },
+        {
+          "rank": 80,
+          "id": "tt0112130",
+          "title": "Pride and Prejudice"
+        },
+        {
+          "rank": 81,
+          "id": "tt0098936",
+          "title": "Twin Peaks"
+        },
+        {
+          "rank": 82,
+          "id": "tt5182866",
+          "title": "Eungdaphara 1988"
+        },
+        {
+          "rank": 83,
+          "id": "tt2707408",
+          "title": "Narcos"
+        },
+        {
+          "rank": 84,
+          "id": "tt0074006",
+          "title": "I, Claudius"
+        },
+        {
+          "rank": 85,
+          "id": "tt9432978",
+          "title": "Kota Factory"
+        },
+        {
+          "rank": 86,
+          "id": "tt0121955",
+          "title": "South Park"
+        },
+        {
+          "rank": 87,
+          "id": "tt0318871",
+          "title": "Kenpuu Denki Berserk"
+        },
+        {
+          "rank": 88,
+          "id": "tt1910272",
+          "title": "Steins; Gate"
+        },
+        {
+          "rank": 89,
+          "id": "tt3718778",
+          "title": "Over the Garden Wall"
+        },
+        {
+          "rank": 90,
+          "id": "tt7923710",
+          "title": "Naui ajusshi"
+        },
+        {
+          "rank": 91,
+          "id": "tt10986410",
+          "title": "Ted Lasso"
+        },
+        {
+          "rank": 92,
+          "id": "tt2085059",
+          "title": "Black Mirror"
+        },
+        {
+          "rank": 93,
+          "id": "tt2442560",
+          "title": "Peaky Blinders"
+        },
+        {
+          "rank": 94,
+          "id": "tt0248654",
+          "title": "Six Feet Under"
+        },
+        {
+          "rank": 95,
+          "id": "tt0434706",
+          "title": "Monster"
+        },
+        {
+          "rank": 96,
+          "id": "tt5753856",
+          "title": "Dark"
+        },
+        {
+          "rank": 97,
+          "id": "tt0384766",
+          "title": "Rome"
+        },
+        {
+          "rank": 98,
+          "id": "tt0118421",
+          "title": "Oz"
+        },
+        {
+          "rank": 99,
+          "id": "tt0988824",
+          "title": "Naruto: Shippûden"
+        },
+        {
+          "rank": 100,
+          "id": "tt5712554",
+          "title": "The Grand Tour"
+        },
+        {
+          "rank": 101,
+          "id": "tt6741278",
+          "title": "Invincible"
+        },
+        {
+          "rank": 102,
+          "id": "tt0286486",
+          "title": "The Shield"
+        },
+        {
+          "rank": 103,
+          "id": "tt1606375",
+          "title": "Downton Abbey"
+        },
+        {
+          "rank": 104,
+          "id": "tt5687612",
+          "title": "Fleabag"
+        },
+        {
+          "rank": 105,
+          "id": "tt16026746",
+          "title": "X-Men '97"
+        },
+        {
+          "rank": 106,
+          "id": "tt0407362",
+          "title": "Battlestar Galactica"
+        },
+        {
+          "rank": 107,
+          "id": "tt0092455",
+          "title": "Star Trek: The Next Generation"
+        },
+        {
+          "rank": 108,
+          "id": "tt0804503",
+          "title": "Mad Men"
+        },
+        {
+          "rank": 109,
+          "id": "tt0387764",
+          "title": "Peep Show"
+        },
+        {
+          "rank": 110,
+          "id": "tt0281491",
+          "title": "Still Game"
+        },
+        {
+          "rank": 111,
+          "id": "tt13309742",
+          "title": "Blue Eye Samurai"
+        },
+        {
+          "rank": 112,
+          "id": "tt0096697",
+          "title": "The Simpsons"
+        },
+        {
+          "rank": 113,
+          "id": "tt0158417",
+          "title": "Mahabharat"
+        },
+        {
+          "rank": 114,
+          "id": "tt6025022",
+          "title": "Justice League Unlimited"
+        },
+        {
+          "rank": 115,
+          "id": "tt0412142",
+          "title": "House M.D."
+        },
+        {
+          "rank": 116,
+          "id": "tt0086661",
+          "title": "The Adventures of Sherlock Holmes"
+        },
+        {
+          "rank": 117,
+          "id": "tt2303687",
+          "title": "Line of Duty"
+        },
+        {
+          "rank": 118,
+          "id": "tt1628033",
+          "title": "Top Gear"
+        },
+        {
+          "rank": 119,
+          "id": "tt0994314",
+          "title": "Kôdo Giasu: Hangyaku no Rurûshu"
+        },
+        {
+          "rank": 120,
+          "id": "tt0062588",
+          "title": "Mister Rogers' Neighborhood"
+        },
+        {
+          "rank": 121,
+          "id": "tt0481256",
+          "title": "Hajime no Ippo"
+        },
+        {
+          "rank": 122,
+          "id": "tt0268093",
+          "title": "Ramayan"
+        },
+        {
+          "rank": 123,
+          "id": "tt0758745",
+          "title": "Friday Night Lights"
+        },
+        {
+          "rank": 124,
+          "id": "tt0367279",
+          "title": "Arrested Development"
+        },
+        {
+          "rank": 125,
+          "id": "tt11280740",
+          "title": "Severance"
+        },
+        {
+          "rank": 126,
+          "id": "tt7472896",
+          "title": "Mr Inbetween"
+        },
+        {
+          "rank": 127,
+          "id": "tt5788792",
+          "title": "The Marvelous Mrs. Maisel"
+        },
+        {
+          "rank": 128,
+          "id": "tt1305826",
+          "title": "Adventure Time"
+        },
+        {
+          "rank": 129,
+          "id": "tt10801534",
+          "title": "How to with John Wilson"
+        },
+        {
+          "rank": 130,
+          "id": "tt5555260",
+          "title": "This Is Us"
+        },
+        {
+          "rank": 131,
+          "id": "tt14392248",
+          "title": "Aspirants"
+        },
+        {
+          "rank": 132,
+          "id": "tt0459159",
+          "title": "The Thick of It"
+        },
+        {
+          "rank": 133,
+          "id": "tt0111958",
+          "title": "Father Ted"
+        },
+        {
+          "rank": 134,
+          "id": "tt1795096",
+          "title": "Behzat Ç."
+        },
+        {
+          "rank": 135,
+          "id": "tt0773262",
+          "title": "Dexter"
+        },
+        {
+          "rank": 136,
+          "id": "tt0106179",
+          "title": "The X Files"
+        },
+        {
+          "rank": 137,
+          "id": "tt1266020",
+          "title": "Parks and Recreation"
+        },
+        {
+          "rank": 138,
+          "id": "tt13991232",
+          "title": "1883"
+        },
+        {
+          "rank": 139,
+          "id": "tt30263074",
+          "title": "Sapne vs Everyone"
+        },
+        {
+          "rank": 140,
+          "id": "tt0094525",
+          "title": "Poirot"
+        },
+        {
+          "rank": 141,
+          "id": "tt0348914",
+          "title": "Deadwood"
+        },
+        {
+          "rank": 142,
+          "id": "tt4786824",
+          "title": "The Crown"
+        },
+        {
+          "rank": 143,
+          "id": "tt4288182",
+          "title": "Atlanta"
+        },
+        {
+          "rank": 144,
+          "id": "tt3322312",
+          "title": "Daredevil"
+        },
+        {
+          "rank": 145,
+          "id": "tt1518542",
+          "title": "Sarabhai V/S Sarabhai"
+        },
+        {
+          "rank": 146,
+          "id": "tt0096639",
+          "title": "Lonesome Dove"
+        },
+        {
+          "rank": 147,
+          "id": "tt1733785",
+          "title": "Bron/Broen"
+        },
+        {
+          "rank": 148,
+          "id": "tt0096657",
+          "title": "Mr. Bean"
+        },
+        {
+          "rank": 149,
+          "id": "tt5290382",
+          "title": "Mindhunter"
+        },
+        {
+          "rank": 150,
+          "id": "tt9140342",
+          "title": "It's a Sin"
+        },
+        {
+          "rank": 151,
+          "id": "tt1856010",
+          "title": "House of Cards"
+        },
+        {
+          "rank": 152,
+          "id": "tt10332508",
+          "title": "Primal"
+        },
+        {
+          "rank": 153,
+          "id": "tt3398540",
+          "title": "Haikyû!!"
+        },
+        {
+          "rank": 154,
+          "id": "tt0088484",
+          "title": "Blackadder II"
+        },
+        {
+          "rank": 155,
+          "id": "tt8111088",
+          "title": "The Mandalorian"
+        },
+        {
+          "rank": 156,
+          "id": "tt4063800",
+          "title": "Le bureau des légendes"
+        },
+        {
+          "rank": 157,
+          "id": "tt27497448",
+          "title": "A Knight of the Seven Kingdoms"
+        },
+        {
+          "rank": 158,
+          "id": "tt10850932",
+          "title": "Sarangeui bulsachak"
+        },
+        {
+          "rank": 159,
+          "id": "tt0229889",
+          "title": "El Chavo del Ocho"
+        },
+        {
+          "rank": 160,
+          "id": "tt9253284",
+          "title": "Andor"
+        },
+        {
+          "rank": 161,
+          "id": "tt13111040",
+          "title": "The Offer"
+        },
+        {
+          "rank": 162,
+          "id": "tt2788316",
+          "title": "Shogun"
+        },
+        {
+          "rank": 163,
+          "id": "tt0080306",
+          "title": "Yes Minister"
+        },
+        {
+          "rank": 164,
+          "id": "tt0090509",
+          "title": "The Return of Sherlock Holmes"
+        },
+        {
+          "rank": 165,
+          "id": "tt4508902",
+          "title": "One Punch Man: Wanpanman"
+        },
+        {
+          "rank": 166,
+          "id": "tt7562112",
+          "title": "Pose"
+        },
+        {
+          "rank": 167,
+          "id": "tt9103932",
+          "title": "Greatest Events of WWII in Colour"
+        },
+        {
+          "rank": 168,
+          "id": "tt2049116",
+          "title": "Gomorra"
+        },
+        {
+          "rank": 169,
+          "id": "tt0092324",
+          "title": "Blackadder the Third"
+        },
+        {
+          "rank": 170,
+          "id": "tt4299972",
+          "title": "The Jinx: The Life and Deaths of Robert Durst"
+        },
+        {
+          "rank": 171,
+          "id": "tt15435876",
+          "title": "The Penguin"
+        },
+        {
+          "rank": 172,
+          "id": "tt1870479",
+          "title": "The Newsroom"
+        },
+        {
+          "rank": 173,
+          "id": "tt5421602",
+          "title": "Anne with an E"
+        },
+        {
+          "rank": 174,
+          "id": "tt0106028",
+          "title": "Homicide: Life on the Street"
+        },
+        {
+          "rank": 175,
+          "id": "tt2063241",
+          "title": "Omar"
+        },
+        {
+          "rank": 176,
+          "id": "tt0979432",
+          "title": "Boardwalk Empire"
+        },
+        {
+          "rank": 177,
+          "id": "tt21056886",
+          "title": "Scavengers Reign"
+        },
+        {
+          "rank": 178,
+          "id": "tt9174558",
+          "title": "Dopesick"
+        },
+        {
+          "rank": 179,
+          "id": "tt4834232",
+          "title": "Critical Role"
+        },
+        {
+          "rank": 180,
+          "id": "tt1486217",
+          "title": "Archer"
+        },
+        {
+          "rank": 181,
+          "id": "tt8595766",
+          "title": "Yeh Meri Family"
+        },
+        {
+          "rank": 182,
+          "id": "tt4574334",
+          "title": "Stranger Things"
+        },
+        {
+          "rank": 183,
+          "id": "tt0094517",
+          "title": "Mystery Science Theater 3000"
+        },
+        {
+          "rank": 184,
+          "id": "tt1489428",
+          "title": "Justified"
+        },
+        {
+          "rank": 185,
+          "id": "tt0053488",
+          "title": "The Bugs Bunny Show"
+        },
+        {
+          "rank": 186,
+          "id": "tt0380136",
+          "title": "QI"
+        },
+        {
+          "rank": 187,
+          "id": "tt35495073",
+          "title": "Heated Rivalry"
+        },
+        {
+          "rank": 188,
+          "id": "tt0314979",
+          "title": "Battlestar Galactica"
+        },
+        {
+          "rank": 189,
+          "id": "tt2701582",
+          "title": "Endeavour"
+        },
+        {
+          "rank": 190,
+          "id": "tt0417373",
+          "title": "The Venture Bros."
+        },
+        {
+          "rank": 191,
+          "id": "tt1710308",
+          "title": "Regular Show"
+        },
+        {
+          "rank": 192,
+          "id": "tt0088509",
+          "title": "Dragon Ball: Doragon bôru"
+        },
+        {
+          "rank": 193,
+          "id": "tt0275137",
+          "title": "Justice League"
+        },
+        {
+          "rank": 194,
+          "id": "tt0086831",
+          "title": "Yes, Prime Minister"
+        },
+        {
+          "rank": 195,
+          "id": "tt7908628",
+          "title": "What We Do in the Shadows"
+        },
+        {
+          "rank": 196,
+          "id": "tt1641384",
+          "title": "Young Justice"
+        },
+        {
+          "rank": 197,
+          "id": "tt0423731",
+          "title": "Samurai Chanpurû"
+        },
+        {
+          "rank": 198,
+          "id": "tt0280249",
+          "title": "Dragon Ball"
+        },
+        {
+          "rank": 199,
+          "id": "tt9335498",
+          "title": "Kimetsu no Yaiba"
+        },
+        {
+          "rank": 200,
+          "id": "tt6763664",
+          "title": "The Haunting of Hill House"
+        },
+        {
+          "rank": 201,
+          "id": "tt4082744",
+          "title": "Detectorists"
+        },
+        {
+          "rank": 202,
+          "id": "tt6108262",
+          "title": "Senke nad Balkanom"
+        },
+        {
+          "rank": 203,
+          "id": "tt13868972",
+          "title": "Rocket Boys"
+        },
+        {
+          "rank": 204,
+          "id": "tt0487831",
+          "title": "The IT Crowd"
+        },
+        {
+          "rank": 205,
+          "id": "tt0863046",
+          "title": "Flight of the Conchords"
+        },
+        {
+          "rank": 206,
+          "id": "tt4158110",
+          "title": "Mr. Robot"
+        },
+        {
+          "rank": 207,
+          "id": "tt0278238",
+          "title": "Samurai Jack"
+        },
+        {
+          "rank": 208,
+          "id": "tt9544034",
+          "title": "The Family Man"
+        },
+        {
+          "rank": 209,
+          "id": "tt3428912",
+          "title": "Happy Valley"
+        },
+        {
+          "rank": 210,
+          "id": "tt7120662",
+          "title": "Derry Girls"
+        },
+        {
+          "rank": 211,
+          "id": "tt0237123",
+          "title": "Coupling"
+        },
+        {
+          "rank": 212,
+          "id": "tt10048342",
+          "title": "The Queen's Gambit"
+        },
+        {
+          "rank": 213,
+          "id": "tt0129690",
+          "title": "I'm Alan Partridge"
+        },
+        {
+          "rank": 214,
+          "id": "tt1534360",
+          "title": "Ezel"
+        },
+        {
+          "rank": 215,
+          "id": "tt5897304",
+          "title": "Mob Psycho 100"
+        },
+        {
+          "rank": 216,
+          "id": "tt10802170",
+          "title": "The Rehearsal"
+        },
+        {
+          "rank": 217,
+          "id": "tt0403778",
+          "title": "Long Way Round"
+        },
+        {
+          "rank": 218,
+          "id": "tt12343534",
+          "title": "Jujutsu Kaisen"
+        },
+        {
+          "rank": 219,
+          "id": "tt20859920",
+          "title": "Hwan Hon"
+        },
+        {
+          "rank": 220,
+          "id": "tt10590066",
+          "title": "All Creatures Great & Small"
+        },
+        {
+          "rank": 221,
+          "id": "tt5189670",
+          "title": "Making a Murderer"
+        },
+        {
+          "rank": 222,
+          "id": "tt4093826",
+          "title": "Twin Peaks"
+        },
+        {
+          "rank": 223,
+          "id": "tt1124373",
+          "title": "Sons of Anarchy"
+        },
+        {
+          "rank": 224,
+          "id": "tt0187664",
+          "title": "Spaced"
+        },
+        {
+          "rank": 225,
+          "id": "tt36988358",
+          "title": "Takopii no genzai"
+        },
+        {
+          "rank": 226,
+          "id": "tt0163507",
+          "title": "Whose Line Is It Anyway?"
+        },
+        {
+          "rank": 227,
+          "id": "tt1190634",
+          "title": "The Boys"
+        },
+        {
+          "rank": 228,
+          "id": "tt2100976",
+          "title": "Impractical Jokers"
+        },
+        {
+          "rank": 229,
+          "id": "tt0112159",
+          "title": "Shinseiki Evangelion"
+        },
+        {
+          "rank": 230,
+          "id": "tt0988818",
+          "title": "Gintama"
+        },
+        {
+          "rank": 231,
+          "id": "tt3895150",
+          "title": "Shigatsu wa kimi no uso"
+        },
+        {
+          "rank": 232,
+          "id": "tt7278862",
+          "title": "L'amica geniale"
+        },
+        {
+          "rank": 233,
+          "id": "tt1513168",
+          "title": "Through the Wormhole"
+        },
+        {
+          "rank": 234,
+          "id": "tt1492966",
+          "title": "Louie"
+        },
+        {
+          "rank": 235,
+          "id": "tt0075537",
+          "title": "Mind Your Language"
+        },
+        {
+          "rank": 236,
+          "id": "tt0290988",
+          "title": "Trailer Park Boys"
+        },
+        {
+          "rank": 237,
+          "id": "tt3526078",
+          "title": "Schitt$ Creek"
+        },
+        {
+          "rank": 238,
+          "id": "tt27446493",
+          "title": "Banjjagineun Woteomellon"
+        },
+        {
+          "rank": 239,
+          "id": "tt0290978",
+          "title": "The Office"
+        },
+        {
+          "rank": 240,
+          "id": "tt4236770",
+          "title": "Yellowstone"
+        },
+        {
+          "rank": 241,
+          "id": "tt0118273",
+          "title": "Brass Eye"
+        },
+        {
+          "rank": 242,
+          "id": "tt1877368",
+          "title": "The Great British Bake Off"
+        },
+        {
+          "rank": 243,
+          "id": "tt2244495",
+          "title": "The Eric Andre Show"
+        },
+        {
+          "rank": 244,
+          "id": "tt12074628",
+          "title": "Smiling Friends"
+        },
+        {
+          "rank": 245,
+          "id": "tt3212600",
+          "title": "Mahabharat"
+        },
+        {
+          "rank": 246,
+          "id": "tt0373732",
+          "title": "The Boondocks"
+        },
+        {
+          "rank": 247,
+          "id": "tt0203082",
+          "title": "Rurôni Kenshin: Meiji kenkaku romantan - Tsuioku-hen"
+        },
+        {
+          "rank": 248,
+          "id": "tt3230854",
+          "title": "The Expanse"
+        },
+        {
+          "rank": 249,
+          "id": "tt0310455",
+          "title": "Foyle's War"
+        },
+        {
+          "rank": 250,
+          "id": "tt5851616",
+          "title": "Tash Ma Tash"
+        }
+      ]
+    }
+  }
+}
